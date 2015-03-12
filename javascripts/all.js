@@ -9788,51 +9788,53 @@ if ( typeof module === "object" && module && typeof module.exports === "object" 
 }
 
 })( window );
-
 var map;
 
 function mapInit() {
-  var defactoHQ = new google.maps.LatLng(53.212124, 6.57214);
+  var canvas = document.getElementById('map-canvas');
 
-  var mapOptions = {
-    zoom: 16,
-    center: defactoHQ,
-    mapTypeId: google.maps.MapTypeId.ROADMAP,
-    scrollwheel: false,
-    draggable: true
-  };
+  if (canvas) {
+    var defactoHQ = new google.maps.LatLng(53.212124, 6.57214);
+    var mapOptions = {
+      zoom: 16,
+      center: defactoHQ,
+      mapTypeId: google.maps.MapTypeId.ROADMAP,
+      scrollwheel: false,
+      draggable: true
+    };
 
-  map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+    map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
-  var image = 'images/marker-orange.svg';
-  var defactoMarker = new google.maps.Marker({
-    position: defactoHQ,
-    clickable: false,
-    map: map,
-    icon: image
-  });
+    var image = 'images/marker-orange.svg';
+    var defactoMarker = new google.maps.Marker({
+      position: defactoHQ,
+      clickable: false,
+      map: map,
+      icon: image
+    });
+  }
 }
 
 google.maps.event.addDomListener(window, 'load', mapInit);
-(function() {
-  $(function() {
-    var $window;
-    $window = $(window);
-    $("[data-parallax=\"background\"]").each(function() {
-      var $el, offset, speed;
-      $el = $(this);
-      speed = $el.data("parallax-speed");
-      offset = $el.data("parallax-offset") || 0;
-      $window.scroll(function() {
-        var coords, yPos;
-        yPos = -($window.scrollTop() / speed);
-        coords = "50% " + (yPos + offset) + "px";
-        $el.css({
-          backgroundPosition: coords
-        });
-      });
-      $window.scroll();
-    });
-  });
 
-}).call(this);
+
+
+$(function () {
+  'use strict';
+
+  var $window = $(window);
+
+  $('[data-parallax="background"]').each(function () {
+    var $this = $(this);
+    var speed = $this.data('parallax-speed');
+    var offset = $this.data('parallax-offset') || 0;
+
+    $window.on('scroll', function () {
+      var yPos = -($window.scrollTop() / speed);
+      var coords = '50% ' + (yPos + offset) + 'px';
+      $this.css('backgroundPosition', coords);
+    });
+
+    $window.scroll()
+  });
+});
