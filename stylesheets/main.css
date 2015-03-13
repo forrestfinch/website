@@ -942,6 +942,85 @@ picture {
       left: auto;
       right: 100%; }
 
+/* line 5, /Users/snap/Git/website/source/stylesheets/_testimonials.scss */
+.testimonial-list li {
+  margin: 1em 0; }
+  /* line 20, /Users/snap/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/bourbon-4.2.1/app/assets/stylesheets/addons/_clearfix.scss */
+  .testimonial-list li::after {
+    clear: both;
+    content: "";
+    display: table; }
+  @media screen and (min-width: 40em) {
+    /* line 5, /Users/snap/Git/website/source/stylesheets/_testimonials.scss */
+    .testimonial-list li {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      /* line 87, /Users/snap/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_span-columns.scss */
+      .testimonial-list li:last-child {
+        margin-right: 0; }
+      /* line 78, /Users/snap/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_omega.scss */
+      .testimonial-list li:nth-child(2n) {
+        margin-right: 0; }
+      /* line 83, /Users/snap/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_omega.scss */
+      .testimonial-list li:nth-child(2n+1) {
+        clear: left; } }
+/* line 15, /Users/snap/Git/website/source/stylesheets/_testimonials.scss */
+.testimonial-list .quote {
+  background-color: #fafafa;
+  border: 1px solid #ededed;
+  border-radius: 4px;
+  color: #888;
+  font-size: 1.1em;
+  font-style: italic;
+  line-height: 1.4em;
+  margin-bottom: 15px;
+  padding: 1.5em;
+  position: relative; }
+  /* line 27, /Users/snap/Git/website/source/stylesheets/_testimonials.scss */
+  .testimonial-list .quote p {
+    margin: 0;
+    position: relative;
+    z-index: 2; }
+  /* line 33, /Users/snap/Git/website/source/stylesheets/_testimonials.scss */
+  .testimonial-list .quote:before {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background-color: #fafafa;
+    border: 1px solid #ededed;
+    border-top: none;
+    border-left: none;
+    bottom: -12.5px;
+    content: "";
+    display: block;
+    height: 25px;
+    left: 60px;
+    position: absolute;
+    width: 25px; }
+/* line 49, /Users/snap/Git/website/source/stylesheets/_testimonials.scss */
+.testimonial-list .author {
+  margin: 25px 0 0;
+  position: relative; }
+/* line 54, /Users/snap/Git/website/source/stylesheets/_testimonials.scss */
+.testimonial-list .avatar {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin: 0 12.5px 0 25px;
+  float: left; }
+/* line 62, /Users/snap/Git/website/source/stylesheets/_testimonials.scss */
+.testimonial-list .name {
+  margin: 5px 0; }
+/* line 66, /Users/snap/Git/website/source/stylesheets/_testimonials.scss */
+.testimonial-list .company {
+  color: #999;
+  display: block;
+  font-size: 0.8em; }
+
 /* line 48, /Users/snap/Git/website/source/stylesheets/_layout.scss */
 section {
   padding: 2em 0; }
