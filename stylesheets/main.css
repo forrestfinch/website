@@ -255,7 +255,7 @@ legend {
  * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
  */
 /* line 286, /Users/snap/Git/website/source/stylesheets/_normalize.scss */
-button,
+button, .button-white,
 input,
 select,
 textarea {
@@ -271,7 +271,7 @@ textarea {
  * the UA stylesheet.
  */
 /* line 300, /Users/snap/Git/website/source/stylesheets/_normalize.scss */
-button,
+button, .button-white,
 input {
   line-height: normal; }
 
@@ -282,7 +282,7 @@ input {
  * Correct `select` style inheritance in Firefox 4+ and Opera.
  */
 /* line 312, /Users/snap/Git/website/source/stylesheets/_normalize.scss */
-button,
+button, .button-white,
 select {
   text-transform: none; }
 
@@ -294,7 +294,7 @@ select {
  *    `input` and others.
  */
 /* line 325, /Users/snap/Git/website/source/stylesheets/_normalize.scss */
-button,
+button, .button-white,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
@@ -307,7 +307,7 @@ input[type="submit"] {
  * Re-set default cursor for disabled elements.
  */
 /* line 337, /Users/snap/Git/website/source/stylesheets/_normalize.scss */
-button[disabled],
+button[disabled], [disabled].button-white,
 html input[disabled] {
   cursor: default; }
 
@@ -350,7 +350,7 @@ input[type="search"]::-webkit-search-decoration {
  * Remove inner padding and border in Firefox 4+.
  */
 /* line 380, /Users/snap/Git/website/source/stylesheets/_normalize.scss */
-button::-moz-focus-inner,
+button::-moz-focus-inner, .button-white::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0; }
@@ -390,8 +390,9 @@ html {
   box-sizing: inherit; }
 
 /* line 1, /Users/snap/Git/website/source/stylesheets/base/_buttons.scss */
-button, input[type="button"], input[type="reset"], input[type="submit"],
+button, .button-white, input[type="button"], input[type="reset"], input[type="submit"],
 button,
+.button-white,
 .button {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -399,8 +400,7 @@ button,
   -o-appearance: none;
   appearance: none;
   -webkit-font-smoothing: antialiased;
-  background-color: #ff6908;
-  border-radius: 3px;
+  background-color: #f1b956;
   border: none;
   color: #fff;
   cursor: pointer;
@@ -416,19 +416,41 @@ button,
   vertical-align: middle;
   white-space: nowrap; }
   /* line 23, /Users/snap/Git/website/source/stylesheets/base/_buttons.scss */
-  button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus,
+  button:hover, .button-white:hover, button:focus, .button-white:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus,
   button:hover,
+  .button-white:hover,
   button:focus,
+  .button-white:focus,
   .button:hover,
   .button:focus {
-    background-color: #ba4900;
+    background-color: #e79b13;
     color: #fff; }
   /* line 29, /Users/snap/Git/website/source/stylesheets/base/_buttons.scss */
-  button:disabled, input[type="button"]:disabled, input[type="reset"]:disabled, input[type="submit"]:disabled,
+  button:disabled, .button-white:disabled, input[type="button"]:disabled, input[type="reset"]:disabled, input[type="submit"]:disabled,
   button:disabled,
+  .button-white:disabled,
   .button:disabled {
     cursor: not-allowed;
     opacity: 0.5; }
+  /* line 34, /Users/snap/Git/website/source/stylesheets/base/_buttons.scss */
+  button.outline, .outline.button-white, input[type="button"].outline, input[type="reset"].outline, input[type="submit"].outline,
+  button.outline,
+  .outline.button-white,
+  .button.outline {
+    background-color: transparent;
+    border: 2px solid #f1b956;
+    color: #f1b956; }
+  /* line 40, /Users/snap/Git/website/source/stylesheets/base/_buttons.scss */
+  button.big, .big.button-white, input[type="button"].big, input[type="reset"].big, input[type="submit"].big,
+  button.big,
+  .big.button-white,
+  .button.big {
+    font-size: 1.3em; }
+
+/* line 52, /Users/snap/Git/website/source/stylesheets/base/_buttons.scss */
+.button-white.outline {
+  border-color: #fff;
+  color: #fff; }
 
 /* line 1, /Users/snap/Git/website/source/stylesheets/base/_forms.scss */
 fieldset {
@@ -480,8 +502,8 @@ textarea {
   input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, textarea:focus,
   select[multiple=multiple]:focus,
   textarea:focus {
-    border-color: #ff6908;
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(237, 93, 0, 0.7);
+    border-color: #f1b956;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(239, 175, 62, 0.7);
     outline: none; }
 
 /* line 55, /Users/snap/Git/website/source/stylesheets/base/_forms.scss */
@@ -615,12 +637,12 @@ p {
 
 /* line 47, /Users/snap/Git/website/source/stylesheets/base/_typography.scss */
 a {
-  color: #ff6908;
+  color: #f1b956;
   text-decoration: none;
   transition: color 0.1s linear; }
   /* line 52, /Users/snap/Git/website/source/stylesheets/base/_typography.scss */
   a:active, a:focus, a:hover {
-    color: #ba4900; }
+    color: #e79b13; }
   /* line 58, /Users/snap/Git/website/source/stylesheets/base/_typography.scss */
   a:active, a:focus {
     outline: none; }
@@ -862,25 +884,146 @@ picture {
 .icon-world:before {
   content: "\e02f"; }
 
+/* line 1, /Users/snap/Git/website/source/stylesheets/_header.scss */
+#header {
+  background-color: #fff;
+  height: 80px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999; }
+  /* line 20, /Users/snap/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/bourbon-4.2.1/app/assets/stylesheets/addons/_clearfix.scss */
+  #header::after {
+    clear: both;
+    content: "";
+    display: table; }
+  /* line 15, /Users/snap/Git/website/source/stylesheets/_header.scss */
+  #header .header-wrapper {
+    max-width: 78.75em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1em;
+    position: relative; }
+    /* line 20, /Users/snap/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/bourbon-4.2.1/app/assets/stylesheets/addons/_clearfix.scss */
+    #header .header-wrapper::after {
+      clear: both;
+      content: "";
+      display: table; }
+  /* line 21, /Users/snap/Git/website/source/stylesheets/_header.scss */
+  #header .logo {
+    float: left;
+    line-height: 70px; }
+    /* line 25, /Users/snap/Git/website/source/stylesheets/_header.scss */
+    #header .logo img {
+      display: inline-block;
+      margin-top: 3px;
+      vertical-align: middle; }
+  /* line 33, /Users/snap/Git/website/source/stylesheets/_header.scss */
+  #header .header-menu-button {
+    float: right;
+    font-weight: 700;
+    font-size: 1.2em;
+    margin-top: 1.2em;
+    outline: none;
+    padding: 8px 10px; }
+    /* line 41, /Users/snap/Git/website/source/stylesheets/_header.scss */
+    #header .header-menu-button .bar {
+      background: #fff;
+      border-radius: 1px;
+      display: block;
+      height: 2px;
+      max-height: 2px;
+      width: 22px; }
+      /* line 49, /Users/snap/Git/website/source/stylesheets/_header.scss */
+      #header .header-menu-button .bar + .bar {
+        margin-top: 5px; }
+    @media screen and (min-width: 40em) {
+      /* line 33, /Users/snap/Git/website/source/stylesheets/_header.scss */
+      #header .header-menu-button {
+        display: none; } }
+  /* line 60, /Users/snap/Git/website/source/stylesheets/_header.scss */
+  #header .nav {
+    float: none;
+    z-index: 9999; }
+    @media screen and (min-width: 40em) {
+      /* line 60, /Users/snap/Git/website/source/stylesheets/_header.scss */
+      #header .nav {
+        float: right; } }
+  /* line 69, /Users/snap/Git/website/source/stylesheets/_header.scss */
+  #header #header-menu {
+    clear: both;
+    display: none;
+    margin: 0 auto;
+    overflow: visible;
+    padding: 1em 0;
+    width: 100%;
+    z-index: 9999;
+    background: #fff; }
+    @media screen and (min-width: 40em) {
+      /* line 69, /Users/snap/Git/website/source/stylesheets/_header.scss */
+      #header #header-menu {
+        display: inline;
+        margin: 0;
+        padding: 0;
+        background: transparent; } }
+    /* line 86, /Users/snap/Git/website/source/stylesheets/_header.scss */
+    #header #header-menu > li {
+      display: block;
+      margin: 0 20px;
+      overflow: hidden;
+      width: 100%;
+      z-index: 9999; }
+      /* line 94, /Users/snap/Git/website/source/stylesheets/_header.scss */
+      #header #header-menu > li a {
+        color: #444;
+        display: block;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-decoration: none !important; }
+        /* line 101, /Users/snap/Git/website/source/stylesheets/_header.scss */
+        #header #header-menu > li a:visited {
+          color: #444; }
+        /* line 105, /Users/snap/Git/website/source/stylesheets/_header.scss */
+        #header #header-menu > li a.active {
+          color: #f1b956; }
+        /* line 109, /Users/snap/Git/website/source/stylesheets/_header.scss */
+        #header #header-menu > li a:hover, #header #header-menu > li a:focus, #header #header-menu > li a:active {
+          color: #f1b956; }
+      @media screen and (min-width: 40em) {
+        /* line 86, /Users/snap/Git/website/source/stylesheets/_header.scss */
+        #header #header-menu > li {
+          display: inline;
+          line-height: 80px;
+          margin-left: .5em;
+          text-align: center;
+          text-decoration: none;
+          width: auto; }
+          /* line 124, /Users/snap/Git/website/source/stylesheets/_header.scss */
+          #header #header-menu > li:first-child {
+            margin-left: 0; }
+          /* line 128, /Users/snap/Git/website/source/stylesheets/_header.scss */
+          #header #header-menu > li a {
+            display: inline; } }
+
 /* line 1, /Users/snap/Git/website/source/stylesheets/_hero.scss */
 .hero {
-  background-image: url("../images/hero-home2.png");
-  background-color: #324766;
-  background-position: top;
+  background-image: url("../images/mood3.jpg");
+  background-position: 0 -150px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-size: 1729px 700px;
   background-attachment: fixed;
-  padding-bottom: 3em;
+  background-color: #fad46b;
+  padding: 80px 0 1em;
   width: 100%; }
-  /* line 29, /Users/snap/Git/website/source/stylesheets/_hero.scss */
+  /* line 25, /Users/snap/Git/website/source/stylesheets/_hero.scss */
   .hero .hero-inner {
     max-width: 78.75em;
     margin-left: auto;
     margin-right: auto;
-    color: white;
+    color: #fff;
     margin: auto;
-    padding: 3.5em;
+    padding: 7em 2em;
     text-align: center; }
     /* line 20, /Users/snap/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/bourbon-4.2.1/app/assets/stylesheets/addons/_clearfix.scss */
     .hero .hero-inner::after {
@@ -892,32 +1035,33 @@ picture {
       clear: both;
       content: "";
       display: table; }
-    /* line 37, /Users/snap/Git/website/source/stylesheets/_hero.scss */
-    .hero .hero-inner button,
+    /* line 33, /Users/snap/Git/website/source/stylesheets/_hero.scss */
+    .hero .hero-inner button, .hero .hero-inner .button-white,
     .hero .hero-inner .button {
-      font-size: 1.3em; }
-  /* line 45, /Users/snap/Git/website/source/stylesheets/_hero.scss */
+      font-size: 1.3em;
+      margin: 0 1em; }
+  /* line 40, /Users/snap/Git/website/source/stylesheets/_hero.scss */
   .hero .hero-copy {
     text-align: center; }
-    /* line 48, /Users/snap/Git/website/source/stylesheets/_hero.scss */
+    /* line 43, /Users/snap/Git/website/source/stylesheets/_hero.scss */
     .hero .hero-copy h1 {
       font-size: 1.6em;
       margin-bottom: 0.6em; }
       @media screen and (min-width: 53.75em) {
-        /* line 48, /Users/snap/Git/website/source/stylesheets/_hero.scss */
+        /* line 43, /Users/snap/Git/website/source/stylesheets/_hero.scss */
         .hero .hero-copy h1 {
           font-size: 4em; } }
-    /* line 57, /Users/snap/Git/website/source/stylesheets/_hero.scss */
+    /* line 52, /Users/snap/Git/website/source/stylesheets/_hero.scss */
     .hero .hero-copy p {
       font-weight: 200;
       line-height: 1.4em;
       margin: 0 auto 2em auto; }
       @media screen and (min-width: 53.75em) {
-        /* line 57, /Users/snap/Git/website/source/stylesheets/_hero.scss */
+        /* line 52, /Users/snap/Git/website/source/stylesheets/_hero.scss */
         .hero .hero-copy p {
           font-size: 1.6em;
           max-width: 80%; } }
-  /* line 69, /Users/snap/Git/website/source/stylesheets/_hero.scss */
+  /* line 64, /Users/snap/Git/website/source/stylesheets/_hero.scss */
   .hero .since {
     position: relative;
     display: inline-block;
@@ -929,7 +1073,7 @@ picture {
     letter-spacing: 3px;
     line-height: .3;
     text-align: center; }
-    /* line 81, /Users/snap/Git/website/source/stylesheets/_hero.scss */
+    /* line 76, /Users/snap/Git/website/source/stylesheets/_hero.scss */
     .hero .since:before, .hero .since:after {
       content: "";
       position: absolute;
@@ -937,12 +1081,12 @@ picture {
       width: 40px;
       border-bottom: 1px solid #eee;
       box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); }
-    /* line 90, /Users/snap/Git/website/source/stylesheets/_hero.scss */
+    /* line 85, /Users/snap/Git/website/source/stylesheets/_hero.scss */
     .hero .since:after {
       left: auto;
       right: 100%; }
 
-/* line 5, /Users/snap/Git/website/source/stylesheets/_testimonials.scss */
+/* line 10, /Users/snap/Git/website/source/stylesheets/_testimonials.scss */
 .testimonial-list li {
   margin: 1em 0; }
   /* line 20, /Users/snap/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/bourbon-4.2.1/app/assets/stylesheets/addons/_clearfix.scss */
@@ -951,7 +1095,7 @@ picture {
     content: "";
     display: table; }
   @media screen and (min-width: 40em) {
-    /* line 5, /Users/snap/Git/website/source/stylesheets/_testimonials.scss */
+    /* line 10, /Users/snap/Git/website/source/stylesheets/_testimonials.scss */
     .testimonial-list li {
       float: left;
       display: block;
@@ -966,10 +1110,10 @@ picture {
       /* line 83, /Users/snap/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_omega.scss */
       .testimonial-list li:nth-child(2n+1) {
         clear: left; } }
-/* line 15, /Users/snap/Git/website/source/stylesheets/_testimonials.scss */
+/* line 20, /Users/snap/Git/website/source/stylesheets/_testimonials.scss */
 .testimonial-list .quote {
   background-color: #fafafa;
-  border: 1px solid #ededed;
+  border: none;
   border-radius: 4px;
   color: #888;
   font-size: 1.1em;
@@ -978,12 +1122,12 @@ picture {
   margin-bottom: 15px;
   padding: 1.5em;
   position: relative; }
-  /* line 27, /Users/snap/Git/website/source/stylesheets/_testimonials.scss */
+  /* line 32, /Users/snap/Git/website/source/stylesheets/_testimonials.scss */
   .testimonial-list .quote p {
     margin: 0;
     position: relative;
     z-index: 2; }
-  /* line 33, /Users/snap/Git/website/source/stylesheets/_testimonials.scss */
+  /* line 38, /Users/snap/Git/website/source/stylesheets/_testimonials.scss */
   .testimonial-list .quote:before {
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
@@ -991,7 +1135,7 @@ picture {
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
     background-color: #fafafa;
-    border: 1px solid #ededed;
+    border: none;
     border-top: none;
     border-left: none;
     bottom: -12.5px;
@@ -1001,36 +1145,40 @@ picture {
     left: 60px;
     position: absolute;
     width: 25px; }
-/* line 49, /Users/snap/Git/website/source/stylesheets/_testimonials.scss */
+/* line 54, /Users/snap/Git/website/source/stylesheets/_testimonials.scss */
 .testimonial-list .author {
   margin: 25px 0 0;
   position: relative; }
-/* line 54, /Users/snap/Git/website/source/stylesheets/_testimonials.scss */
+/* line 59, /Users/snap/Git/website/source/stylesheets/_testimonials.scss */
 .testimonial-list .avatar {
   border-radius: 50%;
   height: 50px;
   width: 50px;
   margin: 0 12.5px 0 25px;
   float: left; }
-/* line 62, /Users/snap/Git/website/source/stylesheets/_testimonials.scss */
+/* line 67, /Users/snap/Git/website/source/stylesheets/_testimonials.scss */
 .testimonial-list .name {
   margin: 5px 0; }
-/* line 66, /Users/snap/Git/website/source/stylesheets/_testimonials.scss */
+/* line 71, /Users/snap/Git/website/source/stylesheets/_testimonials.scss */
 .testimonial-list .company {
   color: #999;
   display: block;
   font-size: 0.8em; }
 
-/* line 48, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+/* line 6, /Users/snap/Git/website/source/stylesheets/_layout.scss */
 section {
   padding: 2em 0; }
-  /* line 51, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+  @media screen and (min-width: 40em) {
+    /* line 6, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+    section {
+      padding: 4em 0; } }
+  /* line 13, /Users/snap/Git/website/source/stylesheets/_layout.scss */
   section.gray {
     background-color: #fbfbfb;
     border-bottom: 1px solid #ddd;
     border-top: 1px solid #ddd; }
 
-/* line 58, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+/* line 20, /Users/snap/Git/website/source/stylesheets/_layout.scss */
 .row {
   max-width: 78.75em;
   margin-left: auto;
@@ -1043,7 +1191,7 @@ section {
     content: "";
     display: table; }
 
-/* line 64, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+/* line 26, /Users/snap/Git/website/source/stylesheets/_layout.scss */
 .sidebar {
   float: left;
   display: block;
@@ -1054,19 +1202,19 @@ section {
   /* line 87, /Users/snap/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_span-columns.scss */
   .sidebar:last-child {
     margin-right: 0; }
-  /* line 70, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+  /* line 32, /Users/snap/Git/website/source/stylesheets/_layout.scss */
   .sidebar nav li {
     border-bottom: 2px solid #eaeaea; }
-    /* line 73, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+    /* line 35, /Users/snap/Git/website/source/stylesheets/_layout.scss */
     .sidebar nav li:last-child {
       border: none; }
-  /* line 77, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+  /* line 39, /Users/snap/Git/website/source/stylesheets/_layout.scss */
   .sidebar nav a {
     display: block;
     font-weight: 700;
     padding: 0.5em 0; }
 
-/* line 85, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+/* line 47, /Users/snap/Git/website/source/stylesheets/_layout.scss */
 .content {
   float: left;
   display: block;
@@ -1076,42 +1224,38 @@ section {
   .content:last-child {
     margin-right: 0; }
 
-/* line 89, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+/* line 51, /Users/snap/Git/website/source/stylesheets/_layout.scss */
 .headline {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 48.82117%;
-  margin-left: 25.58941%;
-  margin-bottom: 1em; }
-  /* line 87, /Users/snap/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_span-columns.scss */
-  .headline:last-child {
-    margin-right: 0; }
+  margin: 0 auto 1em;
+  max-width: 560px;
+  text-align: center; }
 
-/* line 95, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+/* line 57, /Users/snap/Git/website/source/stylesheets/_layout.scss */
 .sub-headline {
-  font-size: 1.125em;
-  color: #777777; }
+  color: #666;
+  font-size: 1.125em; }
 
 /*
 Solutions
 */
-/* line 105, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+/* line 67, /Users/snap/Git/website/source/stylesheets/_layout.scss */
 #solutions {
   color: #666;
-  padding: 4em 0;
   text-align: center; }
-  /* line 110, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+  /* line 71, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+  #solutions a {
+    color: #73bbcb; }
+  /* line 75, /Users/snap/Git/website/source/stylesheets/_layout.scss */
   #solutions h1, #solutions h2, #solutions h3 {
     color: #333; }
-    /* line 112, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+    /* line 77, /Users/snap/Git/website/source/stylesheets/_layout.scss */
     #solutions h1 a, #solutions h2 a, #solutions h3 a {
       color: #333; }
-  /* line 117, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+  /* line 82, /Users/snap/Git/website/source/stylesheets/_layout.scss */
   #solutions img {
     margin-bottom: 10px;
-    max-height: 140px; }
-  /* line 122, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+    max-height: 120px; }
+  /* line 87, /Users/snap/Git/website/source/stylesheets/_layout.scss */
   #solutions .row {
     padding-bottom: 1em; }
     /* line 20, /Users/snap/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/bourbon-4.2.1/app/assets/stylesheets/addons/_clearfix.scss */
@@ -1119,99 +1263,120 @@ Solutions
       clear: both;
       content: "";
       display: table; }
-  /* line 127, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+  /* line 92, /Users/snap/Git/website/source/stylesheets/_layout.scss */
   #solutions .col {
     position: relative;
     padding: 0 1em; }
     @media screen and (min-width: 40em) {
-      /* line 127, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+      /* line 92, /Users/snap/Git/website/source/stylesheets/_layout.scss */
       #solutions .col {
         float: left;
         display: block;
         margin-right: 2.35765%;
-        width: 31.76157%; }
+        width: 23.23176%; }
         /* line 87, /Users/snap/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_span-columns.scss */
         #solutions .col:last-child {
           margin-right: 0; }
         /* line 78, /Users/snap/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_omega.scss */
-        #solutions .col:nth-child(3n) {
+        #solutions .col:nth-child(4n) {
           margin-right: 0; }
         /* line 83, /Users/snap/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_omega.scss */
-        #solutions .col:nth-child(3n+1) {
+        #solutions .col:nth-child(4n+1) {
           clear: left; } }
-    /* line 137, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+    /* line 102, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+    #solutions .col:last-of-type a {
+      color: #80b971; }
+    /* line 108, /Users/snap/Git/website/source/stylesheets/_layout.scss */
     #solutions .col h3 a {
-      color: #333; }
-    /* line 142, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+      color: #333 !important; }
+    /* line 113, /Users/snap/Git/website/source/stylesheets/_layout.scss */
     #solutions .col ul {
-      background-color: #f9f9f9;
       border-radius: 3px;
       margin-top: 2em;
       padding: 0.5em; }
-      /* line 149, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+      /* line 121, /Users/snap/Git/website/source/stylesheets/_layout.scss */
       #solutions .col ul li {
         padding: 0.25em; }
-      /* line 154, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+      /* line 126, /Users/snap/Git/website/source/stylesheets/_layout.scss */
       #solutions .col ul a {
         font-weight: 700; }
 
 /*
-Header
+Product highlights
 */
-/* line 166, /Users/snap/Git/website/source/stylesheets/_layout.scss */
-header {
-  max-width: 1920px;
-  margin: 0 auto;
-  padding: 25px 85px; }
+/* line 138, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+#product-highlights {
+  border: none;
+  color: #fff;
+  padding: 0;
+  text-align: center; }
+  /* line 144, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+  #product-highlights .col {
+    padding-bottom: 4em;
+    padding-top: 4em; }
+  @media screen and (min-width: 40em) {
+    /* line 138, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+    #product-highlights {
+      width: 100%;
+      display: table;
+      width: 100%;
+      table-layout: fixed; }
+      /* line 153, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+      #product-highlights .col {
+        display: table-cell;
+        width: 50%;
+        padding-bottom: 4em;
+        padding-top: 4em; } }
+  /* line 160, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+  #product-highlights .col-capp {
+    background-color: #73bbcb;
+    background-image: -webkit-radial-gradient(50%, circle, #79c5d6 33%, rgba(121, 197, 214, 0.5) 33%, rgba(121, 197, 214, 0.5) 66%, #73bbcb 66%);
+    background-image: radial-gradient(  circle at 50%, #79c5d6 33%, rgba(121, 197, 214, 0.5) 33%, rgba(121, 197, 214, 0.5) 66%, #73bbcb 66%);
+    border-right: 1px solid #fff; }
   /* line 171, /Users/snap/Git/website/source/stylesheets/_layout.scss */
-  header .logo {
-    float: left; }
-  /* line 175, /Users/snap/Git/website/source/stylesheets/_layout.scss */
-  header nav {
-    margin-top: 6px;
-    font-weight: 700;
-    text-transform: uppercase; }
-    /* line 20, /Users/snap/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/bourbon-4.2.1/app/assets/stylesheets/addons/_clearfix.scss */
-    header nav::after {
-      clear: both;
-      content: "";
-      display: table; }
-    /* line 182, /Users/snap/Git/website/source/stylesheets/_layout.scss */
-    header nav ul {
-      float: right;
-      margin: 0;
-      padding: 0;
-      list-style: none; }
-      /* line 189, /Users/snap/Git/website/source/stylesheets/_layout.scss */
-      header nav ul li {
-        display: inline;
-        margin: 0 20px; }
-        /* line 193, /Users/snap/Git/website/source/stylesheets/_layout.scss */
-        header nav ul li a {
-          text-decoration: none !important;
-          color: #444; }
-          /* line 197, /Users/snap/Git/website/source/stylesheets/_layout.scss */
-          header nav ul li a:visited {
-            color: #444; }
-          /* line 201, /Users/snap/Git/website/source/stylesheets/_layout.scss */
-          header nav ul li a.active {
-            color: #dbb10c; }
-          /* line 206, /Users/snap/Git/website/source/stylesheets/_layout.scss */
-          header nav ul li a:hover, header nav ul li a:focus, header nav ul li a:active {
-            color: #dbb10c; }
-    /* line 215, /Users/snap/Git/website/source/stylesheets/_layout.scss */
-    header nav a#pull {
-      display: none; }
+  #product-highlights .col-ls {
+    background-color: #80b971;
+    background-image: url(../images/learningspaces-pattern.svg);
+    background-position: center; }
+  /* line 177, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+  #product-highlights .inner {
+    margin: 0 auto; }
+    @media screen and (min-width: 40em) {
+      /* line 177, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+      #product-highlights .inner {
+        max-width: 600px;
+        width: 80%; } }
+  /* line 188, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+  #product-highlights .headline h2 {
+    font-family: "Montserrat", "Open Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+    font-size: 3em;
+    font-weight: 700; }
+  /* line 193, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+  #product-highlights .headline img {
+    max-width: 280px; }
+  /* line 198, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+  #product-highlights .sub-headline {
+    color: #fff;
+    font-size: 1.5em;
+    margin: 1.4em 0 1.6em; }
+    /* line 203, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+    #product-highlights .sub-headline a {
+      color: #fff;
+      font-weight: 700; }
+  /* line 209, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+  #product-highlights [class^="button"],
+  #product-highlights [class*=" button"] {
+    margin: 0 0.5em; }
 
 /*
 Clients
 */
-/* line 226, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+/* line 220, /Users/snap/Git/website/source/stylesheets/_layout.scss */
 #clients {
+  background-color: #f6f6f6;
   padding: 40px 0;
-  text-align: center;
-  border-top: 1px solid #ddd; }
-  /* line 232, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+  text-align: center; }
+  /* line 227, /Users/snap/Git/website/source/stylesheets/_layout.scss */
   #clients .logos img {
     margin: 0 3em;
     opacity: 0.6;
@@ -1226,52 +1391,47 @@ Clients
 /*
 Highlights
 */
-/* line 248, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+/* line 243, /Users/snap/Git/website/source/stylesheets/_layout.scss */
 #highlights {
   background: #fbfbfb;
   padding: 0; }
-  /* line 252, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+  /* line 247, /Users/snap/Git/website/source/stylesheets/_layout.scss */
   #highlights .wrap {
     border-top: 1px solid #ddd; }
-  /* line 256, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+  /* line 251, /Users/snap/Git/website/source/stylesheets/_layout.scss */
   #highlights .col {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 48.82117%;
+    display: table-cell;
+    width: 50%;
     position: relative;
     padding: 45px 45px; }
-    /* line 87, /Users/snap/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_span-columns.scss */
-    #highlights .col:last-child {
-      margin-right: 0; }
-    /* line 261, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+    /* line 256, /Users/snap/Git/website/source/stylesheets/_layout.scss */
     #highlights .col h1 {
       margin-top: 0;
       font-size: 1.8em;
       line-height: 1.3;
       font-weight: 400; }
-    /* line 268, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+    /* line 263, /Users/snap/Git/website/source/stylesheets/_layout.scss */
     #highlights .col p {
       color: #666;
       font-size: 1.1em; }
-  /* line 274, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+  /* line 269, /Users/snap/Git/website/source/stylesheets/_layout.scss */
   #highlights .image {
     padding: 0px; }
 
 /*
 Vision
 */
-/* line 284, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+/* line 279, /Users/snap/Git/website/source/stylesheets/_layout.scss */
 #vision {
   padding: 80px 0;
   color: #fff;
   text-align: center;
   background: url("../images/slider-back.jpg") center top; }
-  /* line 290, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+  /* line 285, /Users/snap/Git/website/source/stylesheets/_layout.scss */
   #vision h2 {
     margin: 0 0 40px;
     font-size: 5em; }
-  /* line 295, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+  /* line 290, /Users/snap/Git/website/source/stylesheets/_layout.scss */
   #vision h3 {
     margin: 0 0 60px;
     font-size: 1.6em;
@@ -1281,17 +1441,17 @@ Vision
 /*
 Map
 */
-/* line 309, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+/* line 304, /Users/snap/Git/website/source/stylesheets/_layout.scss */
 #map {
   clear: both;
   position: relative;
   background: #fbfaf8;
   border-top: 1px solid #ddd; }
-  /* line 315, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+  /* line 310, /Users/snap/Git/website/source/stylesheets/_layout.scss */
   #map #map-canvas {
     width: 100%;
     height: 600px; }
-  /* line 320, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+  /* line 315, /Users/snap/Git/website/source/stylesheets/_layout.scss */
   #map .contact-form {
     position: absolute;
     top: 75px;
@@ -1301,7 +1461,7 @@ Map
     background: #fbfaf8;
     border-radius: 5px;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); }
-    /* line 330, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+    /* line 325, /Users/snap/Git/website/source/stylesheets/_layout.scss */
     #map .contact-form input,
     #map .contact-form textarea {
       display: block;
@@ -1310,7 +1470,7 @@ Map
 /*
 Contact info
 */
-/* line 343, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+/* line 338, /Users/snap/Git/website/source/stylesheets/_layout.scss */
 #contact-info {
   background: #fbfaf8;
   border-top: 1px solid #ddd;
@@ -1318,14 +1478,14 @@ Contact info
   text-align: center;
   padding: 0;
   position: relative; }
-  /* line 351, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+  /* line 346, /Users/snap/Git/website/source/stylesheets/_layout.scss */
   #contact-info .row {
     width: 100%;
     display: table;
     width: 100%;
     table-layout: fixed;
     padding: 0; }
-  /* line 357, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+  /* line 352, /Users/snap/Git/website/source/stylesheets/_layout.scss */
   #contact-info .col {
     display: table-cell;
     width: 33.33333%;
@@ -1333,10 +1493,10 @@ Contact info
     border-right: 1px solid #ddd;
     font-size: 1.2em;
     vertical-align: middle; }
-    /* line 364, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+    /* line 359, /Users/snap/Git/website/source/stylesheets/_layout.scss */
     #contact-info .col:last-child {
       border: none; }
-    /* line 369, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+    /* line 364, /Users/snap/Git/website/source/stylesheets/_layout.scss */
     #contact-info .col [class^="icon-"],
     #contact-info .col [class*=" icon-"] {
       margin-right: 10px;
@@ -1346,31 +1506,42 @@ Contact info
 /*
 Footer
 */
-/* line 383, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+/* line 378, /Users/snap/Git/website/source/stylesheets/_layout.scss */
 footer {
-  position: relative;
-  clear: both;
-  text-align: center;
   background: #333;
-  color: #666; }
-  /* line 390, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+  color: #666;
+  clear: both;
+  padding-top: 3em;
+  position: relative;
+  text-align: center; }
+  /* line 386, /Users/snap/Git/website/source/stylesheets/_layout.scss */
   footer .col {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 23.23176%; }
+    width: 23.23176%;
+    text-align: left; }
     /* line 87, /Users/snap/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_span-columns.scss */
     footer .col:last-child {
       margin-right: 0; }
-    /* line 393, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+    /* line 390, /Users/snap/Git/website/source/stylesheets/_layout.scss */
     footer .col [class^="icon-"],
     footer .col [class*=" icon-"] {
       margin-right: 10px;
       font-size: 1.6em;
       vertical-align: middle; }
-  /* line 401, /Users/snap/Git/website/source/stylesheets/_layout.scss */
-  footer #footer-bottom {
-    padding: 20px 0; }
+    /* line 397, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+    footer .col h6 {
+      border-bottom: 1px solid #444;
+      padding: 0 0 0.6em; }
+    /* line 408, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+    footer .col a {
+      color: #999; }
+  /* line 413, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+  footer .copyright {
+    border-top: 1px solid #444;
+    margin-top: 1em;
+    padding: 1em 0; }
 
 /* line 2, /Users/snap/Git/website/source/stylesheets/_markets.scss */
 #markets .row {
@@ -1394,7 +1565,7 @@ footer {
       margin-right: 0; }
     /* line 12, /Users/snap/Git/website/source/stylesheets/_markets.scss */
     #markets .row .col .icon {
-      background: #477dca;
+      background: #79c5d6;
       position: absolute;
       display: inline-block;
       left: 50%;
