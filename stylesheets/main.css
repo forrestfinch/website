@@ -637,17 +637,19 @@ p {
 
 /* line 47, /Users/snap/Git/website/source/stylesheets/base/_typography.scss */
 a {
+  -webkit-transition: color 0.1s linear;
+  -moz-transition: color 0.1s linear;
+  transition: color 0.1s linear;
   color: #f1b956;
-  text-decoration: none;
-  transition: color 0.1s linear; }
-  /* line 52, /Users/snap/Git/website/source/stylesheets/base/_typography.scss */
+  text-decoration: none; }
+  /* line 53, /Users/snap/Git/website/source/stylesheets/base/_typography.scss */
   a:active, a:focus, a:hover {
     color: #e79b13; }
-  /* line 58, /Users/snap/Git/website/source/stylesheets/base/_typography.scss */
+  /* line 59, /Users/snap/Git/website/source/stylesheets/base/_typography.scss */
   a:active, a:focus {
     outline: none; }
 
-/* line 64, /Users/snap/Git/website/source/stylesheets/base/_typography.scss */
+/* line 65, /Users/snap/Git/website/source/stylesheets/base/_typography.scss */
 hr {
   border-bottom: 1px solid #ddd;
   border-left: none;
@@ -655,7 +657,7 @@ hr {
   border-top: none;
   margin: 1.5em 0; }
 
-/* line 72, /Users/snap/Git/website/source/stylesheets/base/_typography.scss */
+/* line 73, /Users/snap/Git/website/source/stylesheets/base/_typography.scss */
 img,
 picture {
   margin: 0;
@@ -1543,34 +1545,81 @@ footer {
 #team {
   background-color: #f6f6f6;
   text-align: center; }
-  /* line 5, /Users/snap/Git/website/source/stylesheets/_team.scss */
+  /* line 7, /Users/snap/Git/website/source/stylesheets/_team.scss */
   #team li {
     display: inline-block;
     margin: 0 1em 1em; }
-  /* line 10, /Users/snap/Git/website/source/stylesheets/_team.scss */
+  /* line 12, /Users/snap/Git/website/source/stylesheets/_team.scss */
   #team img,
   #team .placeholder {
     border-radius: 50%;
+    display: inline-block;
     height: 60px;
+    margin-bottom: 8px;
+    vertical-align: top;
     width: 60px; }
-  /* line 17, /Users/snap/Git/website/source/stylesheets/_team.scss */
+  /* line 22, /Users/snap/Git/website/source/stylesheets/_team.scss */
   #team .placeholder {
     background: #e6e6e6;
-    display: inline-block; }
-  /* line 22, /Users/snap/Git/website/source/stylesheets/_team.scss */
+    overflow: hidden;
+    position: relative; }
+    /* line 28, /Users/snap/Git/website/source/stylesheets/_team.scss */
+    #team .placeholder.no-image:before, #team .placeholder.no-image:after {
+      background: #d6d6d6;
+      border-radius: 50%;
+      content: '';
+      left: 50%;
+      position: absolute; }
+    /* line 37, /Users/snap/Git/website/source/stylesheets/_team.scss */
+    #team .placeholder.no-image:before {
+      top: 21%;
+      height: 40%;
+      margin-left: -20%;
+      width: 40%; }
+    /* line 44, /Users/snap/Git/website/source/stylesheets/_team.scss */
+    #team .placeholder.no-image:after {
+      bottom: 0;
+      height: 80%;
+      margin-left: -40%;
+      margin-bottom: -40%;
+      width: 80%; }
+  /* line 55, /Users/snap/Git/website/source/stylesheets/_team.scss */
+  #team li.you .placeholder {
+    -webkit-transition: background 0.1s linear;
+    -moz-transition: background 0.1s linear;
+    transition: background 0.1s linear;
+    background: #73bbcb;
+    color: #fff;
+    font-size: 20px;
+    line-height: 60px; }
+  /* line 63, /Users/snap/Git/website/source/stylesheets/_team.scss */
+  #team li.you a:hover .placeholder {
+    background: #419cb0; }
+  /* line 67, /Users/snap/Git/website/source/stylesheets/_team.scss */
+  #team li.you a {
+    color: #73bbcb;
+    display: block; }
+    /* line 71, /Users/snap/Git/website/source/stylesheets/_team.scss */
+    #team li.you a:active, #team li.you a:focus, #team li.you a:hover {
+      color: #419cb0; }
+  /* line 79, /Users/snap/Git/website/source/stylesheets/_team.scss */
   #team h5 {
-    font-weight: 700;
-    font-size: 0.7em; }
-    /* line 26, /Users/snap/Git/website/source/stylesheets/_team.scss */
+    font-size: 0.8em;
+    font-weight: 700; }
+    /* line 83, /Users/snap/Git/website/source/stylesheets/_team.scss */
     #team h5 span {
       display: block; }
   @media screen and (min-width: 40em) {
-    /* line 32, /Users/snap/Git/website/source/stylesheets/_team.scss */
+    /* line 91, /Users/snap/Git/website/source/stylesheets/_team.scss */
     #team img,
     #team .placeholder {
-      height: 100px;
-      width: 100px; }
-    /* line 38, /Users/snap/Git/website/source/stylesheets/_team.scss */
+      height: 80px;
+      width: 80px; }
+    /* line 97, /Users/snap/Git/website/source/stylesheets/_team.scss */
+    #team li.you .placeholder {
+      font-size: 26.66667px;
+      line-height: 80px; }
+    /* line 102, /Users/snap/Git/website/source/stylesheets/_team.scss */
     #team h5 {
       font-size: 1em; } }
 
