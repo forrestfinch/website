@@ -15,7 +15,7 @@ function mapInit() {
 
     map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
-    var image = 'images/marker-orange.svg';
+    var image = '/images/marker-orange.svg';
     var defactoMarker = new google.maps.Marker({
       position: defactoHQ,
       clickable: false,

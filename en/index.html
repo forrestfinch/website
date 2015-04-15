@@ -14,17 +14,18 @@
     <header id="header">
   <div class="header-wrapper">
     <div class="logo">
-      <a href="../"><img alt="Defacto" src="../images/logos/defacto.svg" /></a>
+      <a href="/"><img alt="Defacto" src="../images/logos/defacto.svg" /></a>
     </div>
-    <button type="button" class="button button-white header-menu-button" id="mobile-menu-toggle">
+    <button type="button" class="header-menu-button" id="mobile-menu-toggle">
       <span class="bar"></span><span class="bar"></span><span class="bar"></span>
     </button>
     <nav class="nav" role="navigation">
       <ul id="header-menu">
-        <li><a class=" active" href="./">Home</a></li>
-        <li><a class="" href="oplossingen/">Solutions</a></li>
-        <li><a class="" href="references/">References</a></li>
-        <li><a class="" href="over-ons/">About us</a></li>
+        <li><a class="" href="/">Home</a></li>
+        <li><a class="" href="/oplossingen/">Solutions</a></li>
+        <li><a class="" href="/over-ons/">About us</a></li>
+        <li><a class="" href="/contact/">Contact</a></li>
+
       </ul>
     </nav>
   </div>
@@ -33,92 +34,136 @@
     <div class="hero">
   <div class="hero-inner">
     <div class="hero-copy">
-      <h1>Developing People</h1>
-      <span class="since">Since 1987</span>
-      <p>Defacto helps organisations developing their employees with software that works.</p>
+      <h1>
+        <!-- Developing People -->
+        Leren &amp; ontwikkelen
+        <!-- LEREN &amp; ONTWIKKELEN -->
+      </h1>
+      <span class="since">sinds 1987</span>
+      <p>
+        Al meer dan 200.000 professionals gebruiken onze software om te leren en zich te ontwikkelen.
+      </p>
     </div>
-    <a class="button-white outline" href="oplossingen/">Onze oplossingen</a>
-    <a class="button" href="#">Maak een afspraak</a>
   </div>
 </div>
 
-<section class="solutions-overview">
+<style>
+.cta .row {
+  max-width: 60em;
+}
+.cta .col {
+  float: left;
+  width: 50%;
+}
+.cta h3 {
+  font-size: 1.4em;
+}
+</style>
+<!-- <section class="gray cta">
   <div class="row">
-    <div class="headline">
-      <h2>Access a wealth of knowledge</h2>
-      <p class="sub-headline">We've created an extensive set of applications and solutions to develop people.</p>
+    <div class="col">
+      <h3>Ontdek wat we voor uw organisatie kunnen betekenen.</h3>
     </div>
+    <div class="col">
+      <a class="button outline" href="/en/oplossingen/">Onze oplossingen</a>
+      <a class="button " href="#">Maak een afspraak</a>
+      <br>
+      Of bel met 050 3144832
+    </div>
+  </div>
+</section> -->
+
+<section class="gray" style="text-align: center;">
+  <div class="row">
+    <h3>
+      Ontdek wat wij doen voor organisaties in de
+      <a href="/zorg/">zorg</a>,
+      <a href="/overheid/">overheid</a> en
+      <a href="/bedrijfsleven/">bedrijfsleven</a>.
+    </h3>
+    <p>
+      <!-- <a class="button outline" href="/en/oplossingen/">Onze oplossingen</a> -->
+      Maar weten? Bel met 050 3144832 of <a class="button outline" href="#">Maak een afspraak</a>
+    </p>
+    <!--
+    <a class="button outline" href="#">Zorg</a>
+    <a class="button outline" href="#">Overheid</a>
+    <a class="button outline" href="#">Bedrijfsleven</a> -->
+  </div>
+</section>
+
+<section class="solutions-overview">
+  <div class="headline">
+    <h2>Iedereen leert op een unieke manier, met eigen talenten en leerstrategieën.</h2>
   </div>
 
   <div class="row">
 
     <div class="col">
-      <a href="#">
-        <img src="../images/icons/leren-blue.png" />
-      </a>
-      <h3>
-        <a href="#">Leren</a>
-      </h3>
+      <a href="#"><img src="../images/icons/leren-blue.png" /></a>
+      <h3><a href="#">Leren</a></h3>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi convallis condimentum turpis. Aenean imperdiet diam massa.
+        De stille, krachtige motor van uw academie. Stroomlijn processen en bespaar tijd. Creëer inzicht met
+        <a href="/en/capp/">CAPP</a> Leren.
       </p>
+    </div>
+
+    <div class="col">
+      <a href="#"><img src="../images/icons/ontwikkelen-blue.png" /></a>
+      <h3><a href="#">Ontwikkelen</a></h3>
+      <p>
+        Geef medewerkers efficiënte tools voor eenvoudige ontwikkelprocessen en overzicht met een persoonlijk porfolio.
+      </p>
+    </div>
+
+    <div class="col">
+      <a href="#"><img src="../images/icons/borging-blue.png" /></a>
+      <h3><a href="#">Kwaliteitspaspoort</a></h3>
+      <p>
+        Kwaliteitsborging made easy. Het kwaliteitspaspoort geeft richting aan medewerker, leidinggevende en bestuur.
+      </p>
+    </div>
+
+    <div class="col">
+      <a href="#"><img src="../images/icons/informeel-green.png" /></a>
+      <h3><a href="#">Informeel Leren</a></h3>
+      <p>
+        <a href="/en/learningspaces/">LearningSpaces</a> is een laagdrempelig sociaal leerplatform dat kennisdeling en leren en stimuleert.
+      </p>
+    </div>
+
+  </div>
+  <div class="row">
+
+    <div class="col">
       <ul>
-        <li><a href="#">Opleidingsadministratie</a></li>
-        <li><a href="#">Leermanagament</a></li>
-        <li><a href="#">E-Learning / ELO</a></li>
-        <li><a href="#">Certifcering</a></li>
+        <li><h4>Opleidingsadministratie</h4></li>
+        <li><h4>Leermanagament</h4></li>
+        <li><h4>E-Learning / ELO</h4></li>
       </ul>
     </div>
 
     <div class="col">
-      <a href="#">
-        <img src="../images/icons/ontwikkelen-blue.png" />
-      </a>
-      <h3>
-        <a href="#">Ontwikkelen</a>
-      </h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi convallis condimentum turpis. Aenean imperdiet diam massa.
-      </p>
       <ul>
-        <li><a href="#">360 feedback</a></li>
-        <li><a href="#">Compententies</a></li>
-        <li><a href="#">Jaargesprekken</a></li>
-        <li><a href="#">Portfolio</a></li>
+        <li><h4><a href="#">360 feedback</a></h4></li>
+        <li><h4>Compententies</h4></li>
+        <li><h4>Jaargesprekken</h4></li>
       </ul>
     </div>
 
     <div class="col">
-      <a href="#">
-        <img src="../images/icons/borging-blue.png" />
-      </a>
-      <h3>
-        <a href="#">Kwaliteitsborging</a>
-      </h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi convallis condimentum turpis. Aenean imperdiet diam massa.
-      </p>
       <ul>
-        <li><a href="#">Kwaliteitspaspoort</a></li>
-        <li><a href="#">Functie- en vereistenprofielen</a></li>
-        <li><a href="#">Meetbare resultaten</a></li>
+        <li><h4>Managementinformatie</h4></li>
+        <li><h4>Accrediteren</h4></li>
+        <li><h4>Certificeren</h4></li>
       </ul>
     </div>
 
     <div class="col">
-      <a href="#">
-        <img src="../images/icons/informeel-green.png" />
-      </a>
-      <h3>
-        <a href="#">Informeel Leren</a>
-      </h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi convallis condimentum turpis. Aenean imperdiet diam massa.
-      </p>
       <ul>
-        <li><a href="#">Sociaal leren</a></li>
-        <li><a href="#">Kennisnetwerken</a></li>
-        <li><a href="#">Kennis maken en delen</a></li>
+        <li><h4>Sociaal leren</h4></li>
+        <li><h4>Kennisnetwerken</h4></li>
+        <li><h4>Kennis maken en delen</h4></li>
       </ul>
     </div>
 
@@ -127,31 +172,31 @@
 
 <section class="product-highlights">
 
-    <div class="col col-capp">
-      <div class="inner">
-        <div class="headline">
-          <h2>CAPP</h2>
-          <p class="sub-headline">
-            <a href="#">CAPP</a> helpt uw medewerkers of klanten op optimale wijze op te leiden en hun vakmanschap te bevorderen.
-          </p>
-        </div>
-        <a class="button-white outline" href="capp/">Lees verder</a>
-        <a class="button-white outline" href="capp/">Demo</a>
-        <a class="button-white outline" href="capp/">Productsheets</a>
+  <div class="col col-capp">
+    <div class="inner">
+      <div class="headline">
+        <h2>CAPP</h2>
+        <p class="sub-headline">
+          <a href="#">CAPP</a> helpt uw medewerkers of klanten op optimale wijze op te leiden en hun vakmanschap te bevorderen.
+        </p>
       </div>
+      <a class="button white outline" href="/en/capp/">Lees verder</a>
+      <a class="button white outline" href="/en/capp/">Demo</a>
+      <a class="button white outline" href="/en/capp/">Productsheets</a>
     </div>
+  </div>
 
-    <div class="col col-ls">
-      <div class="inner">
-        <div class="headline">
-          <img title="LearningSpaces" src="../images/logos/learningspaces-white.png" />
-          <p class="sub-headline">
-            <a href="#">LearningSpaces</a> is een laagdrempelig social-learning platform dat leren en kennisdeling stimuleert.
-          </p>
-        </div>
-        <a href="http://www.learningspaces.io" target="_blank" class="button-white outline">Bezoek de website</a>
+  <div class="col col-ls">
+    <div class="inner">
+      <div class="headline">
+        <img title="LearningSpaces" src="../images/logos/learningspaces-white.png" />
+        <p class="sub-headline">
+          <a href="#">LearningSpaces</a> is een laagdrempelig social-learning platform dat leren en kennisdeling stimuleert.
+        </p>
       </div>
+      <a href="http://www.learningspaces.io" target="_blank" class="button white outline">Bezoek de website</a>
     </div>
+  </div>
 
 </section>
 
