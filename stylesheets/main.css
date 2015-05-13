@@ -516,6 +516,66 @@ button,
         border-color: #63a552;
         color: #599449; }
   /* line 63, /Users/snap/Git/website/source/stylesheets/base/_buttons.scss */
+  button.red, input[type="button"].red, input[type="reset"].red, input[type="submit"].red,
+  button.red,
+  .button.red {
+    background-color: #f47447;
+    border: 2px solid transparent;
+    color: #fff; }
+    /* line 6, /Users/snap/Git/website/source/stylesheets/base/_buttons.scss */
+    button.red:hover, button.red:focus, input[type="button"].red:hover, input[type="button"].red:focus, input[type="reset"].red:hover, input[type="reset"].red:focus, input[type="submit"].red:hover, input[type="submit"].red:focus,
+    button.red:hover,
+    button.red:focus,
+    .button.red:hover,
+    .button.red:focus {
+      background-color: #f15017;
+      color: #fff; }
+    /* line 12, /Users/snap/Git/website/source/stylesheets/base/_buttons.scss */
+    button.red.outline, input[type="button"].red.outline, input[type="reset"].red.outline, input[type="submit"].red.outline,
+    button.red.outline,
+    .button.red.outline {
+      background-color: transparent !important;
+      border-color: #f47447;
+      color: #f47447; }
+      /* line 17, /Users/snap/Git/website/source/stylesheets/base/_buttons.scss */
+      button.red.outline:hover, button.red.outline:focus, input[type="button"].red.outline:hover, input[type="button"].red.outline:focus, input[type="reset"].red.outline:hover, input[type="reset"].red.outline:focus, input[type="submit"].red.outline:hover, input[type="submit"].red.outline:focus,
+      button.red.outline:hover,
+      button.red.outline:focus,
+      .button.red.outline:hover,
+      .button.red.outline:focus {
+        border-color: #f15017;
+        color: #e1440d; }
+  /* line 67, /Users/snap/Git/website/source/stylesheets/base/_buttons.scss */
+  button.turquoise, input[type="button"].turquoise, input[type="reset"].turquoise, input[type="submit"].turquoise,
+  button.turquoise,
+  .button.turquoise {
+    background-color: #40b383;
+    border: 2px solid transparent;
+    color: #fff; }
+    /* line 6, /Users/snap/Git/website/source/stylesheets/base/_buttons.scss */
+    button.turquoise:hover, button.turquoise:focus, input[type="button"].turquoise:hover, input[type="button"].turquoise:focus, input[type="reset"].turquoise:hover, input[type="reset"].turquoise:focus, input[type="submit"].turquoise:hover, input[type="submit"].turquoise:focus,
+    button.turquoise:hover,
+    button.turquoise:focus,
+    .button.turquoise:hover,
+    .button.turquoise:focus {
+      background-color: #338d68;
+      color: #fff; }
+    /* line 12, /Users/snap/Git/website/source/stylesheets/base/_buttons.scss */
+    button.turquoise.outline, input[type="button"].turquoise.outline, input[type="reset"].turquoise.outline, input[type="submit"].turquoise.outline,
+    button.turquoise.outline,
+    .button.turquoise.outline {
+      background-color: transparent !important;
+      border-color: #40b383;
+      color: #40b383; }
+      /* line 17, /Users/snap/Git/website/source/stylesheets/base/_buttons.scss */
+      button.turquoise.outline:hover, button.turquoise.outline:focus, input[type="button"].turquoise.outline:hover, input[type="button"].turquoise.outline:focus, input[type="reset"].turquoise.outline:hover, input[type="reset"].turquoise.outline:focus, input[type="submit"].turquoise.outline:hover, input[type="submit"].turquoise.outline:focus,
+      button.turquoise.outline:hover,
+      button.turquoise.outline:focus,
+      .button.turquoise.outline:hover,
+      .button.turquoise.outline:focus {
+        border-color: #338d68;
+        color: #2c7b5a; }
+  /* line 71, /Users/snap/Git/website/source/stylesheets/base/_buttons.scss */
   button.white, input[type="button"].white, input[type="reset"].white, input[type="submit"].white,
   button.white,
   .button.white {
@@ -546,7 +606,7 @@ button,
       .button.white.outline:focus {
         border-color: #e6e6e6;
         color: #d9d9d9; }
-    /* line 67, /Users/snap/Git/website/source/stylesheets/base/_buttons.scss */
+    /* line 75, /Users/snap/Git/website/source/stylesheets/base/_buttons.scss */
     button.white:hover, button.white:focus, input[type="button"].white:hover, input[type="button"].white:focus, input[type="reset"].white:hover, input[type="reset"].white:focus, input[type="submit"].white:hover, input[type="submit"].white:focus,
     button.white:hover,
     button.white:focus,
@@ -554,7 +614,7 @@ button,
     .button.white:focus {
       background-color: #fff;
       color: #333; }
-    /* line 74, /Users/snap/Git/website/source/stylesheets/base/_buttons.scss */
+    /* line 82, /Users/snap/Git/website/source/stylesheets/base/_buttons.scss */
     button.white.outline:hover, button.white.outline:focus, input[type="button"].white.outline:hover, input[type="button"].white.outline:focus, input[type="reset"].white.outline:hover, input[type="reset"].white.outline:focus, input[type="submit"].white.outline:hover, input[type="submit"].white.outline:focus,
     button.white.outline:hover,
     button.white.outline:focus,
@@ -717,50 +777,52 @@ h6 {
   line-height: 1.2;
   margin: 0 0 0.75em; }
 
-/* line 23, /Users/snap/Git/website/source/stylesheets/base/_typography.scss */
-h1 {
-  font-size: 4em; }
-
 /* line 26, /Users/snap/Git/website/source/stylesheets/base/_typography.scss */
+h1,
 h2 {
   font-size: 2.4em; }
 
-/* line 29, /Users/snap/Git/website/source/stylesheets/base/_typography.scss */
+/* line 30, /Users/snap/Git/website/source/stylesheets/base/_typography.scss */
 h3 {
   font-size: 1.8em; }
 
-/* line 32, /Users/snap/Git/website/source/stylesheets/base/_typography.scss */
+/* line 33, /Users/snap/Git/website/source/stylesheets/base/_typography.scss */
 h4 {
   font-size: 1.125em; }
 
-/* line 35, /Users/snap/Git/website/source/stylesheets/base/_typography.scss */
+/* line 36, /Users/snap/Git/website/source/stylesheets/base/_typography.scss */
 h5 {
   font-size: 1.125em; }
 
-/* line 38, /Users/snap/Git/website/source/stylesheets/base/_typography.scss */
+/* line 39, /Users/snap/Git/website/source/stylesheets/base/_typography.scss */
 h6 {
   font-size: 1em;
   font-weight: 700; }
 
-/* line 43, /Users/snap/Git/website/source/stylesheets/base/_typography.scss */
+/* line 44, /Users/snap/Git/website/source/stylesheets/base/_typography.scss */
 p {
-  margin: 0 0 0.75em; }
+  margin: 1.5em 0; }
 
-/* line 47, /Users/snap/Git/website/source/stylesheets/base/_typography.scss */
+/* line 48, /Users/snap/Git/website/source/stylesheets/base/_typography.scss */
 a {
   -webkit-transition: color 0.1s linear;
   -moz-transition: color 0.1s linear;
   transition: color 0.1s linear;
   color: #f1b956;
   text-decoration: none; }
-  /* line 53, /Users/snap/Git/website/source/stylesheets/base/_typography.scss */
+  /* line 54, /Users/snap/Git/website/source/stylesheets/base/_typography.scss */
   a:active, a:focus, a:hover {
     color: #e79b13; }
-  /* line 59, /Users/snap/Git/website/source/stylesheets/base/_typography.scss */
+  /* line 60, /Users/snap/Git/website/source/stylesheets/base/_typography.scss */
   a:active, a:focus {
     outline: none; }
 
-/* line 65, /Users/snap/Git/website/source/stylesheets/base/_typography.scss */
+/* line 66, /Users/snap/Git/website/source/stylesheets/base/_typography.scss */
+blockquote {
+  border-left: 5px solid #ddd;
+  padding: 0.75em; }
+
+/* line 71, /Users/snap/Git/website/source/stylesheets/base/_typography.scss */
 hr {
   border-bottom: 1px solid #ddd;
   border-left: none;
@@ -768,11 +830,207 @@ hr {
   border-top: none;
   margin: 1.5em 0; }
 
-/* line 73, /Users/snap/Git/website/source/stylesheets/base/_typography.scss */
+/* line 79, /Users/snap/Git/website/source/stylesheets/base/_typography.scss */
 img,
 picture {
   margin: 0;
   max-width: 100%; }
+
+/* line 1, /Users/snap/Git/website/source/stylesheets/components/_hero.scss */
+.hero {
+  background-color: #fad46b;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff; }
+  /* line 11, /Users/snap/Git/website/source/stylesheets/components/_hero.scss */
+  .hero .hero-inner {
+    max-width: 78.75em;
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+    padding: 7em 2em;
+    text-align: center; }
+    /* line 20, /Users/snap/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/bourbon-4.2.1/app/assets/stylesheets/addons/_clearfix.scss */
+    .hero .hero-inner::after {
+      clear: both;
+      content: "";
+      display: table; }
+    /* line 20, /Users/snap/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/bourbon-4.2.1/app/assets/stylesheets/addons/_clearfix.scss */
+    .hero .hero-inner::after {
+      clear: both;
+      content: "";
+      display: table; }
+    /* line 18, /Users/snap/Git/website/source/stylesheets/components/_hero.scss */
+    .hero .hero-inner button,
+    .hero .hero-inner .button {
+      font-size: 1.3em;
+      margin: 0 1em; }
+  /* line 25, /Users/snap/Git/website/source/stylesheets/components/_hero.scss */
+  .hero .hero-copy {
+    text-align: center; }
+  /* line 29, /Users/snap/Git/website/source/stylesheets/components/_hero.scss */
+  .hero h1 {
+    font-size: 1.6em;
+    margin-bottom: 0.6em;
+    font-family: "Montserrat", "Open Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+    margin-bottom: 0.5em;
+    font-weight: 700; }
+    /* line 37, /Users/snap/Git/website/source/stylesheets/components/_hero.scss */
+    .hero h1 img {
+      max-width: 400px; }
+    @media screen and (min-width: 53.75em) {
+      /* line 29, /Users/snap/Git/website/source/stylesheets/components/_hero.scss */
+      .hero h1 {
+        font-size: 4em; } }
+  /* line 46, /Users/snap/Git/website/source/stylesheets/components/_hero.scss */
+  .hero p {
+    line-height: 1.4em;
+    margin: 0 auto 2em auto; }
+    @media screen and (min-width: 53.75em) {
+      /* line 46, /Users/snap/Git/website/source/stylesheets/components/_hero.scss */
+      .hero p {
+        font-size: 1.6em;
+        max-width: 80%; } }
+  /* line 59, /Users/snap/Git/website/source/stylesheets/components/_hero.scss */
+  .hero .modal .modal-inner button,
+  .hero .modal .modal-inner .button {
+    font-size: 1em;
+    margin: 0; }
+  /* line 67, /Users/snap/Git/website/source/stylesheets/components/_hero.scss */
+  .hero .since {
+    position: relative;
+    display: inline-block;
+    top: -20px;
+    padding: 0 .8em;
+    font-size: 0.9em;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: .3;
+    text-align: center; }
+    /* line 79, /Users/snap/Git/website/source/stylesheets/components/_hero.scss */
+    .hero .since:before, .hero .since:after {
+      content: "";
+      position: absolute;
+      left: 100%;
+      width: 40px;
+      border-bottom: 1px solid #eee;
+      box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); }
+    /* line 88, /Users/snap/Git/website/source/stylesheets/components/_hero.scss */
+    .hero .since:after {
+      left: auto;
+      right: 100%; }
+
+/* line 1, /Users/snap/Git/website/source/stylesheets/components/_modal.scss */
+.modal-open {
+  overflow: hidden; }
+
+/* line 5, /Users/snap/Git/website/source/stylesheets/components/_modal.scss */
+.modal {
+  display: inline; }
+  /* line 13, /Users/snap/Git/website/source/stylesheets/components/_modal.scss */
+  .modal > label {
+    display: inline;
+    font-size: 1em;
+    margin: 0; }
+  /* line 19, /Users/snap/Git/website/source/stylesheets/components/_modal.scss */
+  .modal .modal-state {
+    display: none; }
+    /* line 23, /Users/snap/Git/website/source/stylesheets/components/_modal.scss */
+    .modal .modal-state:checked + .modal-window {
+      opacity: 1;
+      visibility: visible; }
+      /* line 27, /Users/snap/Git/website/source/stylesheets/components/_modal.scss */
+      .modal .modal-state:checked + .modal-window .modal-inner {
+        top: 0.5em; }
+  /* line 35, /Users/snap/Git/website/source/stylesheets/components/_modal.scss */
+  .modal .modal-window {
+    -webkit-transition: opacity 0.25s ease;
+    -moz-transition: opacity 0.25s ease;
+    transition: opacity 0.25s ease;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    padding-top: 0.6em;
+    text-align: left;
+    visibility: hidden;
+    z-index: 99999999999; }
+    @media screen and (min-width: 53.75em) {
+      /* line 35, /Users/snap/Git/website/source/stylesheets/components/_modal.scss */
+      .modal .modal-window {
+        padding-top: 10em; } }
+  /* line 50, /Users/snap/Git/website/source/stylesheets/components/_modal.scss */
+  .modal .modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 20px;
+    width: 20px;
+    background: #fff;
+    cursor: pointer; }
+    /* line 56, /Users/snap/Git/website/source/stylesheets/components/_modal.scss */
+    .modal .modal-close:after, .modal .modal-close:before {
+      position: absolute;
+      top: 3px;
+      right: 3px;
+      bottom: 0;
+      left: 50%;
+      height: 1em;
+      width: 2px;
+      background: #666;
+      content: '';
+      display: block;
+      margin: 0 0 0 -1px; }
+    /* line 66, /Users/snap/Git/website/source/stylesheets/components/_modal.scss */
+    .modal .modal-close:after {
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      transform: rotate(45deg); }
+    /* line 70, /Users/snap/Git/website/source/stylesheets/components/_modal.scss */
+    .modal .modal-close:before {
+      -webkit-transform: rotate(-45deg);
+      -moz-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+      -o-transform: rotate(-45deg);
+      transform: rotate(-45deg); }
+    /* line 74, /Users/snap/Git/website/source/stylesheets/components/_modal.scss */
+    .modal .modal-close:hover:after, .modal .modal-close:hover:before {
+      background: #4d4d4d; }
+  /* line 80, /Users/snap/Git/website/source/stylesheets/components/_modal.scss */
+  .modal .modal-inner {
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.1);
+    color: #333;
+    font-size: 1em;
+    margin-top: 0;
+    margin: auto;
+    max-height: 95%;
+    overflow: auto;
+    padding: 15px;
+    position: relative;
+    top: 0;
+    width: 95%; }
+    @media screen and (min-width: 40em) {
+      /* line 80, /Users/snap/Git/website/source/stylesheets/components/_modal.scss */
+      .modal .modal-inner {
+        max-height: 70%;
+        padding: 30px;
+        width: 60%; } }
+    @media screen and (min-width: 53.75em) {
+      /* line 80, /Users/snap/Git/website/source/stylesheets/components/_modal.scss */
+      .modal .modal-inner {
+        width: 50%; } }
 
 @font-face {
   font-family: 'linecons';
@@ -1009,14 +1267,14 @@ section {
     background-color: #fbfbfb; }
 
 /* line 20, /Users/snap/Git/website/source/stylesheets/_layout.scss */
-.row, .oplossingen_index .solitions-list1 {
+.row {
   max-width: 78.75em;
   margin-left: auto;
   margin-right: auto;
   position: relative;
   padding: 0 1em; }
   /* line 20, /Users/snap/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/bourbon-4.2.1/app/assets/stylesheets/addons/_clearfix.scss */
-  .row::after, .oplossingen_index .solitions-list1::after {
+  .row::after {
     clear: both;
     content: "";
     display: table; }
@@ -1051,32 +1309,42 @@ section {
     padding: 0.5em 0; }
 
 /* line 56, /Users/snap/Git/website/source/stylesheets/_layout.scss */
-.content {
+.content,
+article {
   float: left;
   display: block;
   margin-right: 3.57869%;
   width: 65.47377%; }
   /* line 87, /Users/snap/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_span-columns.scss */
-  .content:last-child {
+  .content:last-child,
+  article:last-child {
     margin-right: 0; }
+  /* line 60, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+  .content ul,
+  article ul {
+    margin: 1.5em 0 1.5em 3em; }
+  /* line 64, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+  .content li,
+  article li {
+    list-style-type: disc; }
 
-/* line 60, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+/* line 69, /Users/snap/Git/website/source/stylesheets/_layout.scss */
 .headline {
   margin: 0 auto 1em;
   max-width: 712px;
   text-align: center; }
 
-/* line 67, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+/* line 76, /Users/snap/Git/website/source/stylesheets/_layout.scss */
 .sub-headline {
   color: #666;
   font-size: 1.125em; }
 
-/* line 73, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+/* line 82, /Users/snap/Git/website/source/stylesheets/_layout.scss */
 .checklist li {
   position: relative;
   margin: 0 0 0.8em 0;
   padding: 0 0 0 30px; }
-  /* line 78, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+  /* line 87, /Users/snap/Git/website/source/stylesheets/_layout.scss */
   .checklist li:before {
     background-color: #79c5d6;
     border-radius: 50%;
@@ -1094,14 +1362,14 @@ section {
 /*
 Highlights
 */
-/* line 100, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+/* line 109, /Users/snap/Git/website/source/stylesheets/_layout.scss */
 #highlights {
   background-color: #fbfbfb;
   padding: 0; }
-  /* line 104, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+  /* line 113, /Users/snap/Git/website/source/stylesheets/_layout.scss */
   #highlights .wrap {
     border-top: 1px solid #ddd; }
-  /* line 108, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+  /* line 117, /Users/snap/Git/website/source/stylesheets/_layout.scss */
   #highlights .col {
     float: left;
     display: block;
@@ -1112,34 +1380,34 @@ Highlights
     /* line 87, /Users/snap/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_span-columns.scss */
     #highlights .col:last-child {
       margin-right: 0; }
-    /* line 113, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+    /* line 122, /Users/snap/Git/website/source/stylesheets/_layout.scss */
     #highlights .col h1 {
       margin-top: 0;
       font-size: 1.8em;
       line-height: 1.3;
       font-weight: 400; }
-    /* line 120, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+    /* line 129, /Users/snap/Git/website/source/stylesheets/_layout.scss */
     #highlights .col p {
       color: #666;
       font-size: 1.1em; }
-  /* line 126, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+  /* line 135, /Users/snap/Git/website/source/stylesheets/_layout.scss */
   #highlights .image {
     padding: 0px; }
 
 /*
 Vision
 */
-/* line 136, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+/* line 145, /Users/snap/Git/website/source/stylesheets/_layout.scss */
 #vision {
   padding: 80px 0;
   color: #fff;
   text-align: center;
   background: url("../images/slider-back.jpg") center top; }
-  /* line 142, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+  /* line 151, /Users/snap/Git/website/source/stylesheets/_layout.scss */
   #vision h2 {
     margin: 0 0 40px;
     font-size: 5em; }
-  /* line 147, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+  /* line 156, /Users/snap/Git/website/source/stylesheets/_layout.scss */
   #vision h3 {
     margin: 0 0 60px;
     font-size: 1.6em;
@@ -1149,17 +1417,17 @@ Vision
 /*
 Map
 */
-/* line 161, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+/* line 170, /Users/snap/Git/website/source/stylesheets/_layout.scss */
 #map {
   clear: both;
   position: relative;
   background: #fbfaf8;
   border-top: 1px solid #ddd; }
-  /* line 167, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+  /* line 176, /Users/snap/Git/website/source/stylesheets/_layout.scss */
   #map #map-canvas {
     width: 100%;
     height: 600px; }
-  /* line 172, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+  /* line 181, /Users/snap/Git/website/source/stylesheets/_layout.scss */
   #map .contact-form {
     position: absolute;
     top: 75px;
@@ -1169,7 +1437,7 @@ Map
     background: #fbfaf8;
     border-radius: 5px;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); }
-    /* line 182, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+    /* line 191, /Users/snap/Git/website/source/stylesheets/_layout.scss */
     #map .contact-form input,
     #map .contact-form textarea {
       display: block;
@@ -1178,7 +1446,7 @@ Map
 /*
 Contact info
 */
-/* line 195, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+/* line 204, /Users/snap/Git/website/source/stylesheets/_layout.scss */
 #contact-info {
   background: #fbfaf8;
   border-top: 1px solid #ddd;
@@ -1186,14 +1454,14 @@ Contact info
   text-align: center;
   padding: 0;
   position: relative; }
-  /* line 203, /Users/snap/Git/website/source/stylesheets/_layout.scss */
-  #contact-info .row, #contact-info .oplossingen_index .solitions-list1, .oplossingen_index #contact-info .solitions-list1 {
+  /* line 212, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+  #contact-info .row {
     width: 100%;
     display: table;
     width: 100%;
     table-layout: fixed;
     padding: 0; }
-  /* line 209, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+  /* line 218, /Users/snap/Git/website/source/stylesheets/_layout.scss */
   #contact-info .col {
     display: table-cell;
     width: 33.33333%;
@@ -1201,15 +1469,19 @@ Contact info
     border-right: 1px solid #ddd;
     font-size: 1.2em;
     vertical-align: middle; }
-    /* line 216, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+    /* line 225, /Users/snap/Git/website/source/stylesheets/_layout.scss */
     #contact-info .col:last-child {
       border: none; }
-    /* line 221, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+    /* line 230, /Users/snap/Git/website/source/stylesheets/_layout.scss */
     #contact-info .col [class^="icon-"],
     #contact-info .col [class*=" icon-"] {
       margin-right: 10px;
       font-size: 1.6em;
       vertical-align: middle; }
+
+/* line 239, /Users/snap/Git/website/source/stylesheets/_layout.scss */
+.screenshot {
+  border: 10px solid #fbfbfb; }
 
 /* line 1, /Users/snap/Git/website/source/stylesheets/_header.scss */
 #header {
@@ -1343,7 +1615,7 @@ footer {
     float: left;
     display: block;
     margin-right: 3.57869%;
-    width: 22.31598%;
+    width: 100%;
     text-align: left; }
     /* line 87, /Users/snap/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_span-columns.scss */
     footer .col:last-child {
@@ -1358,95 +1630,24 @@ footer {
     footer .col h6 {
       border-bottom: 1px solid #444;
       padding: 0 0 0.6em; }
-    /* line 31, /Users/snap/Git/website/source/stylesheets/_footer.scss */
+    /* line 25, /Users/snap/Git/website/source/stylesheets/_footer.scss */
     footer .col a {
       color: #999; }
-  /* line 36, /Users/snap/Git/website/source/stylesheets/_footer.scss */
+    @media screen and (min-width: 40em) {
+      /* line 9, /Users/snap/Git/website/source/stylesheets/_footer.scss */
+      footer .col {
+        float: left;
+        display: block;
+        margin-right: 3.57869%;
+        width: 22.31598%; }
+        /* line 87, /Users/snap/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_span-columns.scss */
+        footer .col:last-child {
+          margin-right: 0; } }
+  /* line 34, /Users/snap/Git/website/source/stylesheets/_footer.scss */
   footer .copyright {
     border-top: 1px solid #444;
     margin-top: 1em;
     padding: 1em 0; }
-
-/* line 1, /Users/snap/Git/website/source/stylesheets/_hero.scss */
-.hero {
-  background-color: #fad46b;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #fff; }
-  /* line 11, /Users/snap/Git/website/source/stylesheets/_hero.scss */
-  .hero .hero-inner {
-    max-width: 78.75em;
-    margin-left: auto;
-    margin-right: auto;
-    margin: auto;
-    padding: 7em 2em;
-    text-align: center; }
-    /* line 20, /Users/snap/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/bourbon-4.2.1/app/assets/stylesheets/addons/_clearfix.scss */
-    .hero .hero-inner::after {
-      clear: both;
-      content: "";
-      display: table; }
-    /* line 20, /Users/snap/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/bourbon-4.2.1/app/assets/stylesheets/addons/_clearfix.scss */
-    .hero .hero-inner::after {
-      clear: both;
-      content: "";
-      display: table; }
-    /* line 18, /Users/snap/Git/website/source/stylesheets/_hero.scss */
-    .hero .hero-inner button,
-    .hero .hero-inner .button {
-      font-size: 1.3em;
-      margin: 0 1em; }
-  /* line 25, /Users/snap/Git/website/source/stylesheets/_hero.scss */
-  .hero .hero-copy {
-    text-align: center; }
-  /* line 29, /Users/snap/Git/website/source/stylesheets/_hero.scss */
-  .hero h1 {
-    font-size: 1.6em;
-    margin-bottom: 0.6em;
-    font-family: "Montserrat", "Open Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
-    margin-bottom: 0.5em;
-    font-weight: 700; }
-    /* line 37, /Users/snap/Git/website/source/stylesheets/_hero.scss */
-    .hero h1 img {
-      max-width: 400px; }
-    @media screen and (min-width: 53.75em) {
-      /* line 29, /Users/snap/Git/website/source/stylesheets/_hero.scss */
-      .hero h1 {
-        font-size: 4em; } }
-  /* line 46, /Users/snap/Git/website/source/stylesheets/_hero.scss */
-  .hero p {
-    line-height: 1.4em;
-    margin: 0 auto 2em auto; }
-    @media screen and (min-width: 53.75em) {
-      /* line 46, /Users/snap/Git/website/source/stylesheets/_hero.scss */
-      .hero p {
-        font-size: 1.6em;
-        max-width: 80%; } }
-  /* line 57, /Users/snap/Git/website/source/stylesheets/_hero.scss */
-  .hero .since {
-    position: relative;
-    display: inline-block;
-    top: -20px;
-    padding: 0 .8em;
-    font-size: 0.9em;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    line-height: .3;
-    text-align: center; }
-    /* line 69, /Users/snap/Git/website/source/stylesheets/_hero.scss */
-    .hero .since:before, .hero .since:after {
-      content: "";
-      position: absolute;
-      left: 100%;
-      width: 40px;
-      border-bottom: 1px solid #eee;
-      box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); }
-    /* line 78, /Users/snap/Git/website/source/stylesheets/_hero.scss */
-    .hero .since:after {
-      left: auto;
-      right: 100%; }
 
 /* line 10, /Users/snap/Git/website/source/stylesheets/_testimonials.scss */
 .testimonial-list li {
@@ -1532,11 +1733,12 @@ footer {
   background-color: #f6f6f6;
   padding: 40px 0;
   text-align: center; }
-  /* line 8, /Users/snap/Git/website/source/stylesheets/_clients.scss */
+  /* line 7, /Users/snap/Git/website/source/stylesheets/_clients.scss */
   .clients .logos img {
     margin: 0 3em;
     max-height: 50px;
-    opacity: 0.6; }
+    opacity: 0.6;
+    @inc; }
 
 /* line 1, /Users/snap/Git/website/source/stylesheets/_team.scss */
 #team {
@@ -1638,11 +1840,11 @@ footer {
     margin-bottom: 10px;
     max-height: 120px; }
   /* line 21, /Users/snap/Git/website/source/stylesheets/_solutions_overview.scss */
-  .solutions-overview .row, .solutions-overview .oplossingen_index .solitions-list1, .oplossingen_index .solutions-overview .solitions-list1 {
+  .solutions-overview .row {
     max-width: none;
     padding-bottom: 1em; }
     /* line 20, /Users/snap/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/bourbon-4.2.1/app/assets/stylesheets/addons/_clearfix.scss */
-    .solutions-overview .row::after, .solutions-overview .oplossingen_index .solitions-list1::after, .oplossingen_index .solutions-overview .solitions-list1::after {
+    .solutions-overview .row::after {
       clear: both;
       content: "";
       display: table; }
@@ -1770,145 +1972,155 @@ footer {
 /*
 Solutions
 */
-/* line 6, /Users/snap/Git/website/source/stylesheets/_oplossingen.scss */
-.oplossingen_index {
+/* line 6, /Users/snap/Git/website/source/stylesheets/_producten.scss */
+.producten_index,
+.diensten_index {
   text-align: center; }
-  /* line 13, /Users/snap/Git/website/source/stylesheets/_oplossingen.scss */
-  .oplossingen_index .solitions-list1 li {
-    background-color: #f2f2f2;
-    border-radius: 5px;
-    padding: 2em;
-    margin-bottom: 2em; }
-    @media screen and (min-width: 40em) {
-      /* line 13, /Users/snap/Git/website/source/stylesheets/_oplossingen.scss */
-      .oplossingen_index .solitions-list1 li {
-        float: left;
-        display: block;
-        margin-right: 3.57869%;
-        width: 48.21066%; }
-        /* line 87, /Users/snap/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_span-columns.scss */
-        .oplossingen_index .solitions-list1 li:last-child {
-          margin-right: 0; }
-        /* line 78, /Users/snap/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_omega.scss */
-        .oplossingen_index .solitions-list1 li:nth-child(2n) {
-          margin-right: 0; }
-        /* line 83, /Users/snap/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_omega.scss */
-        .oplossingen_index .solitions-list1 li:nth-child(2n+1) {
-          clear: left; } }
-  /* line 28, /Users/snap/Git/website/source/stylesheets/_oplossingen.scss */
-  .oplossingen_index .solitions-list2 > li {
+  /* line 11, /Users/snap/Git/website/source/stylesheets/_producten.scss */
+  .producten_index .solitions-list > li,
+  .diensten_index .solitions-list > li {
     background-color: #fff;
     margin-bottom: 2em; }
     @media screen and (min-width: 40em) {
-      /* line 28, /Users/snap/Git/website/source/stylesheets/_oplossingen.scss */
-      .oplossingen_index .solitions-list2 > li {
+      /* line 11, /Users/snap/Git/website/source/stylesheets/_producten.scss */
+      .producten_index .solitions-list > li,
+      .diensten_index .solitions-list > li {
         width: 100%;
         display: table;
         width: 100%;
         table-layout: fixed;
         min-height: 300px; } }
-  /* line 39, /Users/snap/Git/website/source/stylesheets/_oplossingen.scss */
-  .oplossingen_index .solitions-list2 .col {
+  /* line 22, /Users/snap/Git/website/source/stylesheets/_producten.scss */
+  .producten_index .solitions-list .col,
+  .diensten_index .solitions-list .col {
     padding: 3.57869%;
     vertical-align: middle; }
-    /* line 43, /Users/snap/Git/website/source/stylesheets/_oplossingen.scss */
-    .oplossingen_index .solitions-list2 .col p {
+    /* line 26, /Users/snap/Git/website/source/stylesheets/_producten.scss */
+    .producten_index .solitions-list .col p,
+    .diensten_index .solitions-list .col p {
       font-size: 1.3em; }
-      /* line 46, /Users/snap/Git/website/source/stylesheets/_oplossingen.scss */
-      .oplossingen_index .solitions-list2 .col p:last-child {
+      /* line 29, /Users/snap/Git/website/source/stylesheets/_producten.scss */
+      .producten_index .solitions-list .col p:last-child,
+      .diensten_index .solitions-list .col p:last-child {
         margin: 0; }
-      /* line 50, /Users/snap/Git/website/source/stylesheets/_oplossingen.scss */
-      .oplossingen_index .solitions-list2 .col p a {
+      /* line 33, /Users/snap/Git/website/source/stylesheets/_producten.scss */
+      .producten_index .solitions-list .col p a,
+      .diensten_index .solitions-list .col p a {
         color: inherit;
         font-weight: 700; }
-    /* line 56, /Users/snap/Git/website/source/stylesheets/_oplossingen.scss */
-    .oplossingen_index .solitions-list2 .col.left {
+    /* line 39, /Users/snap/Git/website/source/stylesheets/_producten.scss */
+    .producten_index .solitions-list .col.left,
+    .diensten_index .solitions-list .col.left {
+      background-position: center;
       color: #fff;
       display: table;
       height: 200px;
       text-align: center;
       width: 100%; }
       @media screen and (min-width: 40em) {
-        /* line 56, /Users/snap/Git/website/source/stylesheets/_oplossingen.scss */
-        .oplossingen_index .solitions-list2 .col.left {
+        /* line 39, /Users/snap/Git/website/source/stylesheets/_producten.scss */
+        .producten_index .solitions-list .col.left,
+        .diensten_index .solitions-list .col.left {
           display: table-cell;
           width: 41.66667%;
           height: auto; } }
-      /* line 68, /Users/snap/Git/website/source/stylesheets/_oplossingen.scss */
-      .oplossingen_index .solitions-list2 .col.left h2 {
+      /* line 52, /Users/snap/Git/website/source/stylesheets/_producten.scss */
+      .producten_index .solitions-list .col.left h2,
+      .diensten_index .solitions-list .col.left h2 {
         display: table-cell;
         font-family: "Montserrat", "Open Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
-        font-size: 3em;
+        font-size: 2em;
         font-weight: 700;
+        line-height: 1.5;
         margin: 0;
         vertical-align: middle; }
         @media screen and (min-width: 40em) {
-          /* line 68, /Users/snap/Git/website/source/stylesheets/_oplossingen.scss */
-          .oplossingen_index .solitions-list2 .col.left h2 {
+          /* line 52, /Users/snap/Git/website/source/stylesheets/_producten.scss */
+          .producten_index .solitions-list .col.left h2,
+          .diensten_index .solitions-list .col.left h2 {
             display: block; } }
-      /* line 81, /Users/snap/Git/website/source/stylesheets/_oplossingen.scss */
-      .oplossingen_index .solitions-list2 .col.left img {
-        max-width: 240px;
+      /* line 66, /Users/snap/Git/website/source/stylesheets/_producten.scss */
+      .producten_index .solitions-list .col.left img,
+      .diensten_index .solitions-list .col.left img {
+        width: 240px;
+        max-width: 100%;
         vertical-align: text-top; }
-    /* line 87, /Users/snap/Git/website/source/stylesheets/_oplossingen.scss */
-    .oplossingen_index .solitions-list2 .col.right {
+    /* line 73, /Users/snap/Git/website/source/stylesheets/_producten.scss */
+    .producten_index .solitions-list .col.right,
+    .diensten_index .solitions-list .col.right {
       text-align: left; }
       @media screen and (min-width: 40em) {
-        /* line 87, /Users/snap/Git/website/source/stylesheets/_oplossingen.scss */
-        .oplossingen_index .solitions-list2 .col.right {
+        /* line 73, /Users/snap/Git/website/source/stylesheets/_producten.scss */
+        .producten_index .solitions-list .col.right,
+        .diensten_index .solitions-list .col.right {
           display: table-cell;
           width: 58.33333%; } }
-  /* line 99, /Users/snap/Git/website/source/stylesheets/_oplossingen.scss */
-  .oplossingen_index .solitions-list2 .capp .left {
+  /* line 84, /Users/snap/Git/website/source/stylesheets/_producten.scss */
+  .producten_index .solitions-list .capp .left,
+  .diensten_index .solitions-list .capp .left {
     background-color: #73bbcb;
     background-image: -webkit-radial-gradient(50%, circle, #79c5d6 33%, rgba(121, 197, 214, 0.5) 33%, rgba(121, 197, 214, 0.5) 66%, #73bbcb 66%);
     background-image: radial-gradient(  circle at 50%, #79c5d6 33%, rgba(121, 197, 214, 0.5) 33%, rgba(121, 197, 214, 0.5) 66%, #73bbcb 66%); }
-  /* line 111, /Users/snap/Git/website/source/stylesheets/_oplossingen.scss */
-  .oplossingen_index .solitions-list2 .learningspaces .left {
+    /* line 92, /Users/snap/Git/website/source/stylesheets/_producten.scss */
+    .producten_index .solitions-list .capp .left h2,
+    .diensten_index .solitions-list .capp .left h2 {
+      font-size: 3em; }
+  /* line 101, /Users/snap/Git/website/source/stylesheets/_producten.scss */
+  .producten_index .solitions-list .kwaliteitspaspoort .left,
+  .diensten_index .solitions-list .kwaliteitspaspoort .left {
+    background-color: #73cda7;
+    background-image: -webkit-radial-gradient(50%, circle, #73cda7 33%, rgba(77, 191, 144, 0.3) 33%, rgba(77, 191, 144, 0.3) 66%, #60c69b 66%);
+    background-image: radial-gradient(  circle at 50%, #73cda7 33%, rgba(77, 191, 144, 0.3) 33%, rgba(77, 191, 144, 0.3) 66%, #60c69b 66%); }
+    /* line 110, /Users/snap/Git/website/source/stylesheets/_producten.scss */
+    .producten_index .solitions-list .kwaliteitspaspoort .left h2 img,
+    .diensten_index .solitions-list .kwaliteitspaspoort .left h2 img {
+      width: 250px; }
+  /* line 118, /Users/snap/Git/website/source/stylesheets/_producten.scss */
+  .producten_index .solitions-list .learningspaces .left,
+  .diensten_index .solitions-list .learningspaces .left {
     background-color: #80b971;
     background-image: url(../images/learningspaces-pattern.svg);
     background-position: center; }
-  @media screen and (min-width: 40em) {
-    /* line 120, /Users/snap/Git/website/source/stylesheets/_oplossingen.scss */
-    .oplossingen_index .solitions-list3 {
-      display: -webkit-box;
-      display: -moz-box;
-      display: box;
-      display: -webkit-flex;
-      display: -moz-flex;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-lines: multiple;
-      -moz-box-lines: multiple;
-      box-lines: multiple;
-      -webkit-flex-wrap: wrap;
-      -moz-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-      -webkit-box-orient: horizontal;
-      -moz-box-orient: horizontal;
-      box-orient: horizontal;
-      -webkit-flex-direction: row;
-      -moz-flex-direction: row;
-      flex-direction: row;
-      -ms-flex-direction: row;
-      padding: 5px; } }
-  /* line 129, /Users/snap/Git/website/source/stylesheets/_oplossingen.scss */
-  .oplossingen_index .solitions-list3 li {
-    border-radius: 5px;
-    padding: 1em; }
-    @media screen and (min-width: 40em) {
-      /* line 129, /Users/snap/Git/website/source/stylesheets/_oplossingen.scss */
-      .oplossingen_index .solitions-list3 li {
-        padding: 2em;
-        width: 50%;
-        background-color: #f2f2f2;
-        flex: 1 1 auto;
-        margin: 5px; } }
-    @media screen and (min-width: 75em) {
-      /* line 129, /Users/snap/Git/website/source/stylesheets/_oplossingen.scss */
-      .oplossingen_index .solitions-list3 li {
-        width: 33.3333333%; } }
+  /* line 128, /Users/snap/Git/website/source/stylesheets/_producten.scss */
+  .producten_index .solitions-list .starterkit .left,
+  .diensten_index .solitions-list .starterkit .left {
+    background-color: #f8ab8f;
+    background-size: 150px 150px;
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.08) 50%, transparent 50%), linear-gradient(rgba(255, 255, 255, 0.08) 50%, transparent 50%); }
+  /* line 140, /Users/snap/Git/website/source/stylesheets/_producten.scss */
+  .producten_index .solitions-list .three-sixty .left,
+  .diensten_index .solitions-list .three-sixty .left {
+    background-color: #fff;
+    background-image: -webkit-radial-gradient(50%, circle, rgba(241, 185, 86, 0.15) 120px, rgba(241, 185, 86, 0.3) 240px);
+    background-image: radial-gradient(  circle at 50%, rgba(241, 185, 86, 0.15) 120px, rgba(241, 185, 86, 0.3) 240px); }
+    /* line 147, /Users/snap/Git/website/source/stylesheets/_producten.scss */
+    .producten_index .solitions-list .three-sixty .left h2 img,
+    .diensten_index .solitions-list .three-sixty .left h2 img {
+      width: 140px; }
+  /* line 155, /Users/snap/Git/website/source/stylesheets/_producten.scss */
+  .producten_index .solitions-list .elearning .left,
+  .diensten_index .solitions-list .elearning .left {
+    background-color: #73bbcb;
+    background-image: -webkit-radial-gradient(50%, circle, #79c5d6 33%, rgba(121, 197, 214, 0.5) 33%, rgba(121, 197, 214, 0.5) 66%, #73bbcb 66%);
+    background-image: radial-gradient(  circle at 50%, #79c5d6 33%, rgba(121, 197, 214, 0.5) 33%, rgba(121, 197, 214, 0.5) 66%, #73bbcb 66%); }
+  /* line 168, /Users/snap/Git/website/source/stylesheets/_producten.scss */
+  .producten_index .solitions-list .implementaties .left,
+  .diensten_index .solitions-list .implementaties .left {
+    background-color: #f5cd85;
+    background-image: -webkit-radial-gradient(50%, circle, #f5cd85 33%, rgba(241, 185, 86, 0.3) 33%, rgba(241, 185, 86, 0.3) 66%, #f3c36e 66%);
+    background-image: radial-gradient(  circle at 50%, #f5cd85 33%, rgba(241, 185, 86, 0.3) 33%, rgba(241, 185, 86, 0.3) 66%, #f3c36e 66%); }
+  /* line 181, /Users/snap/Git/website/source/stylesheets/_producten.scss */
+  .producten_index .solitions-list .hosting .left,
+  .diensten_index .solitions-list .hosting .left {
+    background-color: #fabda7;
+    background-image: -webkit-radial-gradient(50%, circle, #fabda7 33%, rgba(247, 152, 119, 0.3) 33%, rgba(247, 152, 119, 0.3) 66%, #f8ab8f 66%);
+    background-image: radial-gradient(  circle at 50%, #fabda7 33%, rgba(247, 152, 119, 0.3) 33%, rgba(247, 152, 119, 0.3) 66%, #f8ab8f 66%); }
+  /* line 194, /Users/snap/Git/website/source/stylesheets/_producten.scss */
+  .producten_index .solitions-list .koppelingen .left,
+  .diensten_index .solitions-list .koppelingen .left {
+    background-color: #bddbb5;
+    background-image: -webkit-radial-gradient(50%, circle, #bddbb5 33%, rgba(159, 202, 147, 0.3) 33%, rgba(159, 202, 147, 0.3) 66%, #aed2a4 66%);
+    background-image: radial-gradient(  circle at 50%, #bddbb5 33%, rgba(159, 202, 147, 0.3) 33%, rgba(159, 202, 147, 0.3) 66%, #aed2a4 66%); }
 
 /* line 2, /Users/snap/Git/website/source/stylesheets/_capp.scss */
 .capp .hero {
@@ -1936,6 +2148,34 @@ Solutions
   max-height: 160px; }
 /* line 41, /Users/snap/Git/website/source/stylesheets/_capp.scss */
 .capp .gray {
+  text-align: center; }
+
+/* line 2, /Users/snap/Git/website/source/stylesheets/_kpp.scss */
+.kwaliteitspaspoort .hero {
+  background-color: #73bbcb;
+  background-image: -webkit-radial-gradient(50%, circle, #79c5d6 33%, rgba(121, 197, 214, 0.5) 33%, rgba(121, 197, 214, 0.5) 66%, #73bbcb 66%);
+  background-image: radial-gradient(  circle at 50%, #79c5d6 33%, rgba(121, 197, 214, 0.5) 33%, rgba(121, 197, 214, 0.5) 66%, #73bbcb 66%);
+  background-attachment: scroll; }
+  /* line 18, /Users/snap/Git/website/source/stylesheets/_kpp.scss */
+  .kwaliteitspaspoort .hero h1 {
+    font-family: "Montserrat", "Open Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+    margin-bottom: 0.5em;
+    font-weight: 700; }
+@media screen and (min-width: 40em) {
+  /* line 30, /Users/snap/Git/website/source/stylesheets/_kpp.scss */
+  .kwaliteitspaspoort .capp-steps .col {
+    float: left;
+    display: block;
+    margin-right: 3.57869%;
+    width: 30.94754%; }
+    /* line 87, /Users/snap/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_span-columns.scss */
+    .kwaliteitspaspoort .capp-steps .col:last-child {
+      margin-right: 0; } }
+/* line 36, /Users/snap/Git/website/source/stylesheets/_kpp.scss */
+.kwaliteitspaspoort .capp-steps img {
+  max-height: 160px; }
+/* line 41, /Users/snap/Git/website/source/stylesheets/_kpp.scss */
+.kwaliteitspaspoort .gray {
   text-align: center; }
 
 /* line 2, /Users/snap/Git/website/source/stylesheets/_learningspaces.scss */
@@ -1980,16 +2220,20 @@ Solutions
 .learningspaces .gray {
   text-align: center; }
 
+/* line 3, /Users/snap/Git/website/source/stylesheets/_elearning-starter-kit.scss */
+.elearning-starter-kit .hero {
+  background-color: #f8ab8f; }
+
 /* line 2, /Users/snap/Git/website/source/stylesheets/_markets.scss */
-#markets .row, #markets .oplossingen_index .solitions-list1, .oplossingen_index #markets .solitions-list1 {
+#markets .row {
   padding-bottom: 1em; }
   /* line 20, /Users/snap/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/bourbon-4.2.1/app/assets/stylesheets/addons/_clearfix.scss */
-  #markets .row::after, #markets .oplossingen_index .solitions-list1::after, .oplossingen_index #markets .solitions-list1::after {
+  #markets .row::after {
     clear: both;
     content: "";
     display: table; }
   /* line 6, /Users/snap/Git/website/source/stylesheets/_markets.scss */
-  #markets .row .col, #markets .oplossingen_index .solitions-list1 .col, .oplossingen_index #markets .solitions-list1 .col {
+  #markets .row .col {
     float: left;
     display: block;
     margin-right: 3.57869%;
@@ -1998,10 +2242,10 @@ Solutions
     padding: 0 20px;
     text-align: center; }
     /* line 87, /Users/snap/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_span-columns.scss */
-    #markets .row .col:last-child, #markets .oplossingen_index .solitions-list1 .col:last-child, .oplossingen_index #markets .solitions-list1 .col:last-child {
+    #markets .row .col:last-child {
       margin-right: 0; }
     /* line 12, /Users/snap/Git/website/source/stylesheets/_markets.scss */
-    #markets .row .col .icon, #markets .oplossingen_index .solitions-list1 .col .icon, .oplossingen_index #markets .solitions-list1 .col .icon {
+    #markets .row .col .icon {
       background: #79c5d6;
       position: absolute;
       display: inline-block;
@@ -2014,12 +2258,30 @@ Solutions
       border-radius: 50%;
       display: none; }
       /* line 26, /Users/snap/Git/website/source/stylesheets/_markets.scss */
-      #markets .row .col .icon img, #markets .oplossingen_index .solitions-list1 .col .icon img, .oplossingen_index #markets .solitions-list1 .col .icon img {
+      #markets .row .col .icon img {
         width: 50%;
         margin-top: 25%; }
     /* line 32, /Users/snap/Git/website/source/stylesheets/_markets.scss */
-    #markets .row .col h2, #markets .oplossingen_index .solitions-list1 .col h2, .oplossingen_index #markets .solitions-list1 .col h2 {
+    #markets .row .col h2 {
       position: relative;
       margin-top: 0;
       padding-top: 2em;
       font-size: 1.8em; }
+
+@media screen and (min-width: 40em) {
+  /* line 3, /Users/snap/Git/website/source/stylesheets/_360.scss */
+  .three-sixty-steps .col {
+    float: left;
+    display: block;
+    margin-right: 3.57869%;
+    width: 30.94754%; }
+    /* line 87, /Users/snap/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_span-columns.scss */
+    .three-sixty-steps .col:last-child {
+      margin-right: 0; } }
+/* line 9, /Users/snap/Git/website/source/stylesheets/_360.scss */
+.three-sixty-steps img {
+  max-height: 160px; }
+
+/* line 14, /Users/snap/Git/website/source/stylesheets/_360.scss */
+.gray {
+  text-align: center; }
