@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>E-Learning starterkit</title>
     <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
     <link href="../stylesheets/main.css" rel="stylesheet" type="text/css" />
     <script src="../javascripts/all.js" type="text/javascript"></script>
@@ -33,10 +34,12 @@
 
     <div class="hero">
   <div class="hero-inner">
+
     <div class="hero-copy">
       <h1>E-Learning Starterkit</h1>
       <p>Op eenvoudige en betaalbare wijze zelf uw lesmateriaal ontwikkelen</p>
     </div>
+
     <div class="modal">
       <label for="afspraak-maken">
         <span class="button white outline">Meer weten</span>
@@ -62,94 +65,72 @@
 <section>
   <div class="row">
     <div class="content">
-      <div id="starter-kit">
-        <div class="row border border-bottom">
-            <div class="col">
-                <h2>Meer gedaan krijgen met minder</h2>
-                <p>
-                  Door de overstap te maken van traditioneel leren naar E-learning en het lesmateriaal zelf (in-house) te ontwikkelen, realiseert u op eenvoudige wijze een forse kostenbesparing.
-                  Geld dat u gráág ergens anders aan besteedt.
-                </p>
-                <img alt="E-Learning Handboek Leren &amp; Laten Leren" src="../images/boek.png" />
-            </div>
-        <div>
-          <div class="col">
-            <h2>Hoe werkt het?</h2>
-            <p>
-              Met de E-learning Starterkit ontwikkelt u betaalbaar, snel en eenvoudig uw eigen E-learning modules, gericht op specifieke vakkennis, gedragscodes of zelfs digitale toetsen. De Starterkit bestaat uit een totaalpakket van hardware, software en consultancy.
-            </p>
-            <p>
-              Defacto neemt u alle zorg uit handen en regelt de aanschaf van hardware en software, installatie en licenties voor u.
-              Indien gewenst is aanvullende ondersteuning, zoals het ontwikkelen van complexere modules, het definiëren van uw E-learning beleid of ondersteuning bij capaciteitsgebrek altijd mogelijk.
-            </p>
-          </div>
 
-        <div id="cases" class="col">
-            <div class="case">
-                <h2>Wat krijgt u?</h2>
-                <ul>
-                  <li>Een laptop, met daarop:</li>
-                  <li>Zeer gebruiksvriendelijke Authoring software</li>
-                  <li>Voorbeeld-modules ter inspiratie</li>
-                  <li>Het boek: ‘Leren en Laten Leren’</li>
-                  <li>High Definition camera</li>
-                  <li>Microfoon</li>
-                  <li>Twee dagen training on the job</li>
-                  <li>Eén jaar helpdesk-support </li>
-                </ul>
-            </div>
-        </div>
+      <div class="">
+        <h2>Meer gedaan krijgen met minder</h2>
+        <p>
+          Door de overstap te maken van traditioneel leren naar E-learning en het lesmateriaal zelf (in-house) te ontwikkelen, realiseert u op eenvoudige wijze een forse kostenbesparing.
+          Geld dat u gráág ergens anders aan besteedt.
+        </p>
       </div>
-          <div class="col">
-            <h2>Meteen inzetbaar</h2>
-            <p>
-              Aan het eind van de tweede trainingsdag bent u volledig opgeleid en in staat om zelfstandig lesmateriaal te ontwikkelen en zijn de eerste lesmodules en afrondende toetsen vaak al opgeleverd.
-            </p>
-          </div>
-          </div>
+
+      <div class="">
+        <h2>Hoe werkt het?</h2>
+        <p>
+          Met de E-learning Starterkit ontwikkelt u betaalbaar, snel en eenvoudig uw eigen E-learning modules, gericht op specifieke vakkennis, gedragscodes of zelfs digitale toetsen. De Starterkit bestaat uit een totaalpakket van hardware, software en consultancy.
+        </p>
+        <p>
+          Defacto neemt u alle zorg uit handen en regelt de aanschaf van hardware en software, installatie en licenties voor u.
+          Indien gewenst is aanvullende ondersteuning, zoals het ontwikkelen van complexere modules, het definiëren van uw E-learning beleid of ondersteuning bij capaciteitsgebrek altijd mogelijk.
+        </p>
       </div>
-      <div class="section-header">
-              <p class="center">
-                Haal op eenvoudige en betaalbare wijze een enorme hoeveelheid kennis en expertise op het gebied van E-learning in huis.
-              </p>
-          </div>
-      <div>
-        <div>
-          <div class="reference">
-              <blockquote>
-                  De tijd van het afhankelijk zijn van dure leveranciers voor al je E-Learning materiaal is echt voorbij.
-                  Je kunt tegenwoordig zo gemakkelijk zelf, organisatie-eigen E-Learning maken.
-              </blockquote>
-              <span>- Hans Veeger</span><br>
-              <span>Directeur Defacto</span>
-          </div>
-        </div>
+
+      <div class="">
+        <h2>Wat krijgt u?</h2>
+        <ul>
+          <li>Een laptop, met daarop:</li>
+          <li>Zeer gebruiksvriendelijke Authoring software</li>
+          <li>Voorbeeld-modules ter inspiratie</li>
+          <li>Het boek: ‘Leren en Laten Leren’</li>
+          <li>High Definition camera</li>
+          <li>Microfoon</li>
+          <li>Twee dagen training on the job</li>
+          <li>Eén jaar helpdesk-support</li>
+        </ul>
       </div>
+
+      <div class="">
+        <h2>Meteen inzetbaar</h2>
+        <p>
+          Aan het eind van de tweede trainingsdag bent u volledig opgeleid en in staat om zelfstandig lesmateriaal te ontwikkelen en zijn de eerste lesmodules en afrondende toetsen vaak al opgeleverd.
+        </p>
+        <p>
+          Haal op eenvoudige en betaalbare wijze een enorme hoeveelheid kennis en expertise op het gebied van E-learning in huis.
+        </p>
+      </div>
+
+      <div class="">
+        <blockquote>
+          De tijd van het afhankelijk zijn van dure leveranciers voor al je E-Learning materiaal is echt voorbij.
+          Je kunt tegenwoordig zo gemakkelijk zelf, organisatie-eigen E-Learning maken.
+        </blockquote>
+        <span>- Hans Veeger,</span> <span>Directeur Defacto</span>
+      </div>
+
     </div>
   </div>
 </section>
 
-<section class="gray">
+<section class="gray" id="ebook-download">
   <div class="row">
-    <h3>Nu beginnen met het zelf maken van E-Learning materiaal?</h3>
-    <div class="modal">
-      <label for="nu-beginnen">
-        <span class="button">Ja, ik wil nu beginnen</span>
-      </label>
-      <input class="modal-state" id="nu-beginnen" type="checkbox">
-      <div class="modal-window">
-        <div class="modal-inner">
-          <label class="modal-close" for="nu-beginnen"></label>
-          <h3>Ik wil zelf E-learning maken</h3>
-          <form accept-charset="UTF-8" action="https://formkeep.com/f/aff54030c202" method="POST">
-            <input type="hidden" name="utf8" value="✓">
-            <input type="hidden" name="form" value="starter-kit">
-            <input type="email" name="email" placeholder="E-mail">
-            <button type="submit">Nu beginnen</button>
-          </form>
-        </div>
-      </div>
-    </div>
+    <h3>Download gratis ons E-Learning Handboek</h3>
+    <img alt="E-Learning Handboek Leren &amp; Laten Leren" src="../images/boek.png" />
+    <form accept-charset="UTF-8" action="https://formkeep.com/f/aff54030c202" method="POST">
+      <input type="hidden" name="utf8" value="✓">
+      <input type="hidden" name="form" value="ebook download">
+      <input type="email" name="email" placeholder="E-mail">
+      <button type="submit" class="rounded">Download</button>
+    </form>
   </div>
 </section>
 
@@ -205,6 +186,28 @@
     </div>
   </div>
 </footer>
+
+    <div class="highlight" id="highlight-ebook">
+  <a href="#" class="close">
+    <img src="../images/close.svg" />
+  </a>
+
+  <div class="highlight-header">
+    <label for="ebook-email">
+      <h2 class="highlight-title">Download gratis ons <span class="pre">E-Learning</span> Handboek</h2>
+      <img alt="E-Learning Handboek Leren &amp; Laten Leren" src="../images/boek.png" />
+    </label>
+  </div>
+
+  <div class="highlight-bottom">
+    <form accept-charset="UTF-8" action="https://formkeep.com/f/aff54030c202" method="POST">
+      <input type="hidden" name="utf8" value="✓">
+      <input type="hidden" name="form" value="ebook download">
+      <input type="email" name="email" id="ebook-email" placeholder="E-mail" required>
+      <button type="submit">Download</button>
+    </form>
+  </div>
+</div>
 
     <script type="text/javascript" data-cfasync="false">(function () { var done = false;var script = document.createElement('script');script.async = true;script.type = 'text/javascript';script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript';document.getElementsByTagName('HEAD').item(0).appendChild(script);script.onreadystatechange = script.onload = function (e) {if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) {var w = new PCWidget({ c: '126011e0-7d76-412b-92de-ad6fb3ab38e2', f: true });done = true;}};})();</script>
   </body>
