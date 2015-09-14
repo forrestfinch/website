@@ -26,6 +26,7 @@ de:
     testimonials: "Kundenreferenzen"
   actions:
     download: "Herunterladen"
+    download_productsheet: "Produktblatt herunterladen"
     make_appointment: "Termin vereinbaren"
     read_more: "Mehr"
     tell_me_more: "Erzähl mir mehr"
@@ -41,7 +42,7 @@ de:
       heading_md: "Zusammen einen Business Case erstellen um zu sehen wie viel Sie mit CAPP einsparen können?"
     desc: "%{link} sorgt dafür das Ihre Mitarbeiter einfach und zielgerichtet lernen und ihre Talente weiterentwickeln."
     hero:
-      formkeep_title: "CAPP: meer informatie"
+      formkeep_title: "CAPP: download productsheet"
       text_md: "__CAPP LMS__ unterstützt Sie dabei das Können und Wissen Ihrer Mitarbeiter oder Kunden zu fördern."
       title: "Fortbilden und Lernen mit CAPP LMS"
     name: CAPP LMS

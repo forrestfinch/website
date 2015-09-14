@@ -11,9 +11,7 @@ Defacto.popup = {
   cookieValue: 'hidden',
   cookies: Cookies.get(),
   $window: $(window),
-  $body: $('body'),
   popupsShown: false,
-  ebookPopupId: '#popup-ebook',
 
   // console.log(Cookies.get()); // show all coockies
   // Cookies.remove('defacto_popup-ebook', { path: '/' }); // remove ebook cookie
@@ -43,8 +41,7 @@ Defacto.popup = {
 
     // Show popup after scroll
     this.$window.on('scroll', function () {
-      if (!Defacto.popup.popupsShown &&
-          Defacto.popup.$window.scrollTop() > Defacto.popup.showScrollTop) {
+      if (!Defacto.popup.popupsShown && Defacto.popup.$window.scrollTop() > Defacto.popup.showScrollTop) {
         setTimeout(function () {
           $('.popup').addClass('popup-show');
           Defacto.popup.popupsShown = true;
@@ -53,15 +50,11 @@ Defacto.popup = {
     });
 
     // Close popup button
-    this.$body.on('click', '.popup .close', function (event) {
+    $(document).on('click', '.popup .close', function (event) {
       event.preventDefault();
-
       var $popup = $(this).closest('.popup');
       Defacto.popup.hide($popup, Defacto.popup.cookieExpiresOnClose);
     });
-
-    // Ebook form submit
-    this.$body.on('submit', this.ebookPopupId + ' form', Defacto.ebookForm.submit);
   }
 };
 

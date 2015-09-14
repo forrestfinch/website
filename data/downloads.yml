@@ -9,4 +9,7 @@
 ebook:
   nl: "/pdf/Handboek_Leren_en_laten_Leren.pdf"
   de: "/pdf/de/Handbuch_Abenteuer_E-Learning.pdf"
-  # en: ""
+productsheets:
+  capp:
+    nl: "/pdf/Productsheet_CAPP_Leren.pdf"
+    de: "/pdf/de/CAPP11-Eine_Plattform_fur_Ihre_Personalentwicklung.pdf"

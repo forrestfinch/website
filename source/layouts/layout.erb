@@ -51,11 +51,7 @@
 
     <!--[if lte IE 9]>
     <%= javascript_include_tag "jquery.placeholder.min" %>
-    <script>
-      $(function() {
-        $('input, textarea').placeholder()
-      });
-    </script>
+    <%= javascript_include_tag "lte-ie9" %>
     <![endif]-->
 
     <!-- Google-code voor remarketingtag -->

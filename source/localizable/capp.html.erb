@@ -8,12 +8,12 @@ title: CAPP LMS
       <h1><%= t("capp.hero.title") %></h1>
       <%= markitdown t("capp.hero.text_md") %>
 
-      <form class="form-inline" accept-charset="UTF-8" action="<%= t("urls.formkeep") %>" method="POST">
+      <form id="form-capp-productsheet" class="form-inline" accept-charset="UTF-8" action="<%= t("urls.formkeep") %>" method="POST">
         <input type="hidden" name="utf8" value="✓">
         <input type="hidden" name="form" value="<%= t("capp.hero.formkeep_title") %>">
         <input type="text" name="name" placeholder="<%= t("form.name") %>">
         <input type="email" name="email" placeholder="<%= t("form.email") %>" required>
-        <button type="submit"><%= t("actions.tell_me_more") %></button>
+        <button type="submit"><%= t("actions.download_productsheet") %></button>
       </form>
 
     </div>
