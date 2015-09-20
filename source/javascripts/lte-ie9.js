@@ -3,14 +3,15 @@ $(function() {
   $('input, textarea').placeholder();
 
   // Form validation
-  $(document).on('submit', 'form', function (event) {
+  $('form').on('submit', function (event) {
     var $form = $(this);
     var valid = true;
 
     $form.find('input:visible').each(function () {
       var $input = $(this);
 
-      switch ($input.attr('type')) {
+      // check for `name` because `type` does not work in IE9 an below.
+      switch ($input.attr('name')) {
         case 'email':
           if ($input.val().indexOf('@') < 1) {
             valid = false;
@@ -24,7 +25,7 @@ $(function() {
 
     if (!valid) {
       event.preventDefault();
-      return false;
+      event.stopImmediatePropagation();
     }
   });
 });

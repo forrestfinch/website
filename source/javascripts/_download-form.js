@@ -35,7 +35,8 @@
     }).done(function (data, textStatus, jqXHR) {
       // Track conversion
       if (ga) {
-        ga('send', 'pageview', '/bedankt/' + this.$form.find('input[name=form]').val());
+        var formName = this.$form.find('input[name=form]').val();
+        ga('send', 'pageview', '/bedankt/' + formName);
       }
       // Callback
       if (typeof this.options.onSubmitSuccess === 'function') {
