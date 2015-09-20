@@ -24,7 +24,6 @@
 }
 
 #{$all-button-inputs},
-button,
 .button {
   @include appearance(none);
   @include button($action-color);
@@ -90,5 +89,14 @@ button,
   &.rounded {
     border-radius: 5px;
     vertical-align: top;
+  }
+
+  [class^="icon-"],
+  [class*=" icon-"] {
+    display: inline-block;
+    font-size: 1.6em;
+    margin-top: -12px;
+    margin-bottom: -8px;
+    vertical-align: middle;
   }
 }

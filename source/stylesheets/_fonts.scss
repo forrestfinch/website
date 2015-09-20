@@ -12,11 +12,11 @@
 
 @font-face {
 	font-family: 'icomoon';
-	src:url('../fonts/icomoon.eot?iesdxk');
-	src:url('../fonts/icomoon.eot?#iefixiesdxk') format('embedded-opentype'),
-		url('../fonts/icomoon.ttf?iesdxk') format('truetype'),
-		url('../fonts/icomoon.woff?iesdxk') format('woff'),
-		url('../fonts/icomoon.svg?iesdxk#icomoon') format('svg');
+	src:url('../fonts/icomoon.eot?q3usa6');
+	src:url('../fonts/icomoon.eot?#iefix-q3usa6') format('embedded-opentype'),
+		url('../fonts/icomoon.ttf?q3usa6') format('truetype'),
+		url('../fonts/icomoon.woff?q3usa6') format('woff'),
+		url('../fonts/icomoon.svg?q3usa6#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -34,6 +34,9 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.icon-pdf:before {
+	content: "\e604";
+}
 .icon-location:before {
 	content: "\e600";
 }
