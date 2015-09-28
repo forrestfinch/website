@@ -101,7 +101,17 @@ end
 ###
 
 helpers do
-  # Get the full url
+  # Get full locale (eg. nl_NL)
+  def full_locale(lang=I18n.locale)
+    case lang
+      when "en"
+        "en_US"
+      else
+        "#{lang.downcase}_#{lang.upcase}"
+    end
+  end
+
+  # Get full url
   def full_url(url)
     URI.join("http://www.defacto.nl", url)
   end
