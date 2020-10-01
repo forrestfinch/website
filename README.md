@@ -1,6 +1,6 @@
 ## Defacto website
 
-The sourcecode for our [website](http://www.defacto.nl). More detailed information can be found at the [Wiki](https://github.com/DefactoSoftware/website/wiki).
+The source code for our [website](http://www.defacto.nl). More detailed information can be found at the [Wiki](https://github.com/DefactoSoftware/website/wiki).
 
 ##### Server
 
